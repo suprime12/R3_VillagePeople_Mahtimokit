@@ -61,14 +61,6 @@
             this.label20 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.asiakkkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mokitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.palvelutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toimipisteetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.varauksetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ohjeetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asiakkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -81,13 +73,19 @@
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toimipisteetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.varauksetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tilaushistoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asiakkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ohjeetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button13
@@ -417,68 +415,9 @@
             this.groupBox2.Controls.Add(this.monthCalendar1);
             this.groupBox2.Location = new System.Drawing.Point(248, 40);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(249, 622);
+            this.groupBox2.Size = new System.Drawing.Size(249, 637);
             this.groupBox2.TabIndex = 93;
             this.groupBox2.TabStop = false;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.asiakkkaatToolStripMenuItem,
-            this.mokitToolStripMenuItem,
-            this.palvelutToolStripMenuItem,
-            this.toimipisteetToolStripMenuItem,
-            this.varauksetToolStripMenuItem,
-            this.ohjeetToolStripMenuItem,
-            this.asiakkaatToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(965, 29);
-            this.menuStrip1.TabIndex = 94;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // asiakkkaatToolStripMenuItem
-            // 
-            this.asiakkkaatToolStripMenuItem.Name = "asiakkkaatToolStripMenuItem";
-            this.asiakkkaatToolStripMenuItem.Size = new System.Drawing.Size(96, 25);
-            this.asiakkkaatToolStripMenuItem.Text = "Asiakkkaat";
-            // 
-            // mokitToolStripMenuItem
-            // 
-            this.mokitToolStripMenuItem.Name = "mokitToolStripMenuItem";
-            this.mokitToolStripMenuItem.Size = new System.Drawing.Size(62, 25);
-            this.mokitToolStripMenuItem.Text = "Mökit";
-            // 
-            // palvelutToolStripMenuItem
-            // 
-            this.palvelutToolStripMenuItem.Name = "palvelutToolStripMenuItem";
-            this.palvelutToolStripMenuItem.Size = new System.Drawing.Size(76, 25);
-            this.palvelutToolStripMenuItem.Text = "Palvelut";
-            // 
-            // toimipisteetToolStripMenuItem
-            // 
-            this.toimipisteetToolStripMenuItem.Name = "toimipisteetToolStripMenuItem";
-            this.toimipisteetToolStripMenuItem.Size = new System.Drawing.Size(105, 25);
-            this.toimipisteetToolStripMenuItem.Text = "Toimipisteet";
-            // 
-            // varauksetToolStripMenuItem
-            // 
-            this.varauksetToolStripMenuItem.Name = "varauksetToolStripMenuItem";
-            this.varauksetToolStripMenuItem.Size = new System.Drawing.Size(90, 25);
-            this.varauksetToolStripMenuItem.Text = "Varaukset";
-            // 
-            // ohjeetToolStripMenuItem
-            // 
-            this.ohjeetToolStripMenuItem.Name = "ohjeetToolStripMenuItem";
-            this.ohjeetToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
-            this.ohjeetToolStripMenuItem.Text = "Ohjeet";
-            // 
-            // asiakkaatToolStripMenuItem
-            // 
-            this.asiakkaatToolStripMenuItem.Name = "asiakkaatToolStripMenuItem";
-            this.asiakkaatToolStripMenuItem.Size = new System.Drawing.Size(89, 25);
-            this.asiakkaatToolStripMenuItem.Text = "Asetukset";
             // 
             // groupBox3
             // 
@@ -507,7 +446,7 @@
             this.groupBox4.Controls.Add(this.button13);
             this.groupBox4.Location = new System.Drawing.Point(503, 274);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(205, 388);
+            this.groupBox4.Size = new System.Drawing.Size(205, 403);
             this.groupBox4.TabIndex = 96;
             this.groupBox4.TabStop = false;
             // 
@@ -524,9 +463,9 @@
             this.groupBox5.Controls.Add(this.label2);
             this.groupBox5.Controls.Add(this.listView2);
             this.groupBox5.Controls.Add(this.button7);
-            this.groupBox5.Location = new System.Drawing.Point(715, 40);
+            this.groupBox5.Location = new System.Drawing.Point(726, 40);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(236, 622);
+            this.groupBox5.Size = new System.Drawing.Size(236, 637);
             this.groupBox5.TabIndex = 97;
             this.groupBox5.TabStop = false;
             // 
@@ -619,30 +558,74 @@
             this.groupBox6.Controls.Add(this.button4);
             this.groupBox6.Location = new System.Drawing.Point(12, 129);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(220, 532);
+            this.groupBox6.Size = new System.Drawing.Size(220, 548);
             this.groupBox6.TabIndex = 106;
             this.groupBox6.TabStop = false;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toimipisteetToolStripMenuItem,
+            this.varauksetToolStripMenuItem,
+            this.tilaushistoriaToolStripMenuItem,
+            this.asiakkaatToolStripMenuItem,
+            this.ohjeetToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(984, 29);
+            this.menuStrip1.TabIndex = 109;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toimipisteetToolStripMenuItem
+            // 
+            this.toimipisteetToolStripMenuItem.Name = "toimipisteetToolStripMenuItem";
+            this.toimipisteetToolStripMenuItem.Size = new System.Drawing.Size(132, 25);
+            this.toimipisteetToolStripMenuItem.Text = "Tietojen hallinta";
+            this.toimipisteetToolStripMenuItem.Click += new System.EventHandler(this.toimipisteetToolStripMenuItem_Click);
+            // 
+            // varauksetToolStripMenuItem
+            // 
+            this.varauksetToolStripMenuItem.Name = "varauksetToolStripMenuItem";
+            this.varauksetToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
+            this.varauksetToolStripMenuItem.Text = "Uusi tilaus";
+            // 
+            // tilaushistoriaToolStripMenuItem
+            // 
+            this.tilaushistoriaToolStripMenuItem.Name = "tilaushistoriaToolStripMenuItem";
+            this.tilaushistoriaToolStripMenuItem.Size = new System.Drawing.Size(114, 25);
+            this.tilaushistoriaToolStripMenuItem.Text = "Tilaushistoria";
+            // 
+            // asiakkaatToolStripMenuItem
+            // 
+            this.asiakkaatToolStripMenuItem.Name = "asiakkaatToolStripMenuItem";
+            this.asiakkaatToolStripMenuItem.Size = new System.Drawing.Size(89, 25);
+            this.asiakkaatToolStripMenuItem.Text = "Asetukset";
+            // 
+            // ohjeetToolStripMenuItem
+            // 
+            this.ohjeetToolStripMenuItem.Name = "ohjeetToolStripMenuItem";
+            this.ohjeetToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
+            this.ohjeetToolStripMenuItem.Text = "Ohjeet";
             // 
             // Varaus_uusi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(965, 684);
+            this.ClientSize = new System.Drawing.Size(984, 727);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Varaus_uusi";
-            this.Text = "Varaus_uusi";
+            this.Text = "Uusi varaus";
             this.Load += new System.EventHandler(this.Varaus_uusi_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -653,6 +636,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -691,14 +676,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem asiakkkaatToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mokitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem palvelutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toimipisteetToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem varauksetToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ohjeetToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asiakkaatToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
@@ -711,5 +688,11 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toimipisteetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem varauksetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tilaushistoriaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem asiakkaatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ohjeetToolStripMenuItem;
     }
 }

@@ -10,28 +10,43 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class Form1 : Form
+    public partial class Tmp_Mokit_Palvelut : Form
     {
-        public Form1()
+        public Tmp_Mokit_Palvelut()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void asiakkkaatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Asiakkaat lomake = new Asiakkaat();
+            lomake.Show();
+        }
+
         private void toimipisteetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tmp_Mokit_Palvelut lomake = new Tmp_Mokit_Palvelut();
-            lomake.Show();
+
         }
 
         private void varauksetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Varaus_uusi lomake = new Varaus_uusi();
             lomake.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

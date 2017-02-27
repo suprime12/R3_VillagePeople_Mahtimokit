@@ -48,17 +48,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(227, 94);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(47, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 20);
+            this.label1.Size = new System.Drawing.Size(106, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Toimipisteet";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(113, 129);
+            this.button1.Location = new System.Drawing.Point(51, 122);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 54);
             this.button1.TabIndex = 1;
@@ -68,7 +68,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(317, 129);
+            this.button2.Location = new System.Drawing.Point(166, 122);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 54);
             this.button2.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(176, 217);
+            this.listBox1.Location = new System.Drawing.Point(51, 201);
             this.listBox1.Name = "listBox1";
             this.listBox1.ScrollAlwaysVisible = true;
             this.listBox1.Size = new System.Drawing.Size(187, 224);
@@ -89,7 +89,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(176, 465);
+            this.textBox1.Location = new System.Drawing.Point(51, 449);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(187, 26);
             this.textBox1.TabIndex = 4;
@@ -97,7 +97,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(369, 465);
+            this.button3.Location = new System.Drawing.Point(244, 449);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(63, 26);
             this.button3.TabIndex = 5;
@@ -177,6 +177,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Toimipisteet";
             this.Text = "Toimipisteet";
+            this.Load += new System.EventHandler(this.Toimipisteet_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

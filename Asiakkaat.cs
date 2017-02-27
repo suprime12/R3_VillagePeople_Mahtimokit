@@ -16,5 +16,10 @@ namespace R3_VillagePeople_Mahtimokit
         {
             InitializeComponent();
         }
+
+        private void Asiakkaat_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
