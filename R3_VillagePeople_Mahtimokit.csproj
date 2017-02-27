@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mokit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mokit.Designer.cs">
+      <DependentUpon>Mokit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Palvelut.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     <Compile Include="Varaus.Designer.cs">
       <DependentUpon>Varaus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Varaus_uusi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varaus_uusi.Designer.cs">
+      <DependentUpon>Varaus_uusi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Yhteistiedot.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mokit.resx">
+      <DependentUpon>Mokit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Palvelut.resx">
       <DependentUpon>Palvelut.cs</DependentUpon>
@@ -107,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Varaus.resx">
       <DependentUpon>Varaus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varaus_uusi.resx">
+      <DependentUpon>Varaus_uusi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Yhteistiedot.resx">
       <DependentUpon>Yhteistiedot.cs</DependentUpon>

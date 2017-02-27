@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class Yhteistiedot : Form
+    public partial class Mokit : Form
     {
-        public Yhteistiedot()
+        public Mokit()
         {
             InitializeComponent();
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void asiakkaatToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
