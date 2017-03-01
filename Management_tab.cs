@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class Tmp_Mokit_Palvelut : Form
+    public partial class Management_tab : Form
     {
-        public Tmp_Mokit_Palvelut()
+        public Management_tab()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace R3_VillagePeople_Mahtimokit
 
         private void asiakkkaatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Asiakkaat lomake = new Asiakkaat();
+            Customer_Edit lomake = new Customer_Edit();
             lomake.Show();
         }
 
@@ -35,7 +35,7 @@ namespace R3_VillagePeople_Mahtimokit
 
         private void varauksetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Varaus_uusi lomake = new Varaus_uusi();
+            Order_tab lomake = new Order_tab();
             lomake.Show();
         }
 

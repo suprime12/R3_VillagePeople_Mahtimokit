@@ -1,6 +1,6 @@
 ﻿namespace R3_VillagePeople_Mahtimokit
 {
-    partial class Varaus_uusi
+    partial class Order_tab
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Varaus_uusi));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order_tab));
             this.button13 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.listView4 = new System.Windows.Forms.ListView();
@@ -608,7 +608,7 @@
             this.ohjeetToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
             this.ohjeetToolStripMenuItem.Text = "Ohjeet";
             // 
-            // Varaus_uusi
+            // Order_tab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -621,8 +621,9 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Name = "Varaus_uusi";
-            this.Text = "Uusi varaus";
+            this.Name = "Order_tab";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Uusi tilaus";
             this.Load += new System.EventHandler(this.Varaus_uusi_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

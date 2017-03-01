@@ -1,6 +1,6 @@
 ﻿namespace R3_VillagePeople_Mahtimokit
 {
-    partial class Tmp_Mokit_Palvelut
+    partial class Management_tab
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tmp_Mokit_Palvelut));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Management_tab));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toimipisteetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.varauksetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ohjeetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tilaushistoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asiakkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ohjeetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.tilaushistoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -101,17 +101,23 @@
             this.varauksetToolStripMenuItem.Text = "Uusi tilaus";
             this.varauksetToolStripMenuItem.Click += new System.EventHandler(this.varauksetToolStripMenuItem_Click);
             // 
-            // ohjeetToolStripMenuItem
+            // tilaushistoriaToolStripMenuItem
             // 
-            this.ohjeetToolStripMenuItem.Name = "ohjeetToolStripMenuItem";
-            this.ohjeetToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
-            this.ohjeetToolStripMenuItem.Text = "Ohjeet";
+            this.tilaushistoriaToolStripMenuItem.Name = "tilaushistoriaToolStripMenuItem";
+            this.tilaushistoriaToolStripMenuItem.Size = new System.Drawing.Size(114, 25);
+            this.tilaushistoriaToolStripMenuItem.Text = "Tilaushistoria";
             // 
             // asiakkaatToolStripMenuItem
             // 
             this.asiakkaatToolStripMenuItem.Name = "asiakkaatToolStripMenuItem";
             this.asiakkaatToolStripMenuItem.Size = new System.Drawing.Size(89, 25);
             this.asiakkaatToolStripMenuItem.Text = "Asetukset";
+            // 
+            // ohjeetToolStripMenuItem
+            // 
+            this.ohjeetToolStripMenuItem.Name = "ohjeetToolStripMenuItem";
+            this.ohjeetToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
+            this.ohjeetToolStripMenuItem.Text = "Ohjeet";
             // 
             // groupBox2
             // 
@@ -129,6 +135,51 @@
             this.groupBox2.TabIndex = 107;
             this.groupBox2.TabStop = false;
             // 
+            // button7
+            // 
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button7.Location = new System.Drawing.Point(183, 587);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(48, 48);
+            this.button7.TabIndex = 109;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.Location = new System.Drawing.Point(100, 587);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(48, 48);
+            this.button2.TabIndex = 108;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button6.Location = new System.Drawing.Point(17, 587);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(48, 48);
+            this.button6.TabIndex = 107;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button5.Location = new System.Drawing.Point(199, 541);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(32, 32);
+            this.button5.TabIndex = 101;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -138,6 +189,23 @@
             this.label7.Size = new System.Drawing.Size(158, 20);
             this.label7.TabIndex = 77;
             this.label7.Text = "Toimipisteen mökit";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox1.Location = new System.Drawing.Point(17, 543);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(172, 26);
+            this.textBox1.TabIndex = 100;
+            // 
+            // listView1
+            // 
+            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.listView1.Location = new System.Drawing.Point(16, 50);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(214, 487);
+            this.listView1.TabIndex = 99;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // comboBox3
             // 
@@ -172,74 +240,6 @@
             this.groupBox1.Size = new System.Drawing.Size(260, 143);
             this.groupBox1.TabIndex = 112;
             this.groupBox1.TabStop = false;
-            // 
-            // listView1
-            // 
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView1.Location = new System.Drawing.Point(16, 50);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(214, 487);
-            this.listView1.TabIndex = 99;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox1.Location = new System.Drawing.Point(17, 543);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(172, 26);
-            this.textBox1.TabIndex = 100;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button5.Location = new System.Drawing.Point(199, 541);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(32, 32);
-            this.button5.TabIndex = 101;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(100, 587);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 48);
-            this.button2.TabIndex = 108;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button6.Location = new System.Drawing.Point(17, 587);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(48, 48);
-            this.button6.TabIndex = 107;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button7.Location = new System.Drawing.Point(183, 587);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(48, 48);
-            this.button7.TabIndex = 109;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // tilaushistoriaToolStripMenuItem
-            // 
-            this.tilaushistoriaToolStripMenuItem.Name = "tilaushistoriaToolStripMenuItem";
-            this.tilaushistoriaToolStripMenuItem.Size = new System.Drawing.Size(114, 25);
-            this.tilaushistoriaToolStripMenuItem.Text = "Tilaushistoria";
             // 
             // button1
             // 
@@ -449,7 +449,7 @@
             this.listView3.TabIndex = 99;
             this.listView3.UseCompatibleStateImageBehavior = false;
             // 
-            // Tmp_Mokit_Palvelut
+            // Management_tab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -459,7 +459,8 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Tmp_Mokit_Palvelut";
+            this.Name = "Management_tab";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tietojen hallinta";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

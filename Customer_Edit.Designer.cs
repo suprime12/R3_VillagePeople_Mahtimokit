@@ -1,6 +1,6 @@
 ﻿namespace R3_VillagePeople_Mahtimokit
 {
-    partial class Asiakkaat
+    partial class Customer_Edit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Asiakkaat));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Edit));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.asiakkkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mokitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,14 +38,14 @@
             this.ohjeetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asiakkaatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -146,6 +146,36 @@
             this.groupBox6.TabIndex = 107;
             this.groupBox6.TabStop = false;
             // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button8.Location = new System.Drawing.Point(19, 556);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(193, 41);
+            this.button8.TabIndex = 105;
+            this.button8.Text = "Tilaushistoria";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button7.Location = new System.Drawing.Point(19, 509);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(193, 41);
+            this.button7.TabIndex = 104;
+            this.button7.Text = "Poista asiakas";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button4.Location = new System.Drawing.Point(19, 462);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(193, 41);
+            this.button4.TabIndex = 103;
+            this.button4.Text = "Muokkaa asiakasta";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -193,36 +223,6 @@
             this.button6.TabIndex = 98;
             this.button6.Text = "Lisää uusi asiakas";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button4.Location = new System.Drawing.Point(19, 462);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(193, 41);
-            this.button4.TabIndex = 103;
-            this.button4.Text = "Muokkaa asiakasta";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button7.Location = new System.Drawing.Point(19, 509);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(193, 41);
-            this.button7.TabIndex = 104;
-            this.button7.Text = "Poista asiakas";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button8.Location = new System.Drawing.Point(19, 556);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(193, 41);
-            this.button8.TabIndex = 105;
-            this.button8.Text = "Tilaushistoria";
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // comboBox4
             // 
@@ -427,7 +427,7 @@
             this.groupBox1.TabIndex = 128;
             this.groupBox1.TabStop = false;
             // 
-            // Asiakkaat
+            // Customer_Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -435,7 +435,8 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Asiakkaat";
+            this.Name = "Customer_Edit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asiakkaat";
             this.Load += new System.EventHandler(this.Asiakkaat_Load);
             this.menuStrip1.ResumeLayout(false);
