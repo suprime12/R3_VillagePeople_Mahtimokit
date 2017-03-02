@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order_tab));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
@@ -76,36 +75,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.listView5 = new System.Windows.Forms.ListView();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.listView6 = new System.Windows.Forms.ListView();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.listView7 = new System.Windows.Forms.ListView();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.button22 = new System.Windows.Forms.Button();
@@ -138,22 +108,52 @@
             this.listView8 = new System.Windows.Forms.ListView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.btn_Services_delete = new System.Windows.Forms.Button();
+            this.btn_Services_edit = new System.Windows.Forms.Button();
+            this.btn_Services_add = new System.Windows.Forms.Button();
+            this.btn_Services_search = new System.Windows.Forms.Button();
+            this.lbl_Services = new System.Windows.Forms.Label();
+            this.txt_Services_search = new System.Windows.Forms.TextBox();
+            this.lsv_Services_all = new System.Windows.Forms.ListView();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.lbl_Cottages = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.listView5 = new System.Windows.Forms.ListView();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.btn_Customer_delete = new System.Windows.Forms.Button();
+            this.btn_Customer_edit = new System.Windows.Forms.Button();
+            this.btn_Customer_add = new System.Windows.Forms.Button();
+            this.btn_Customer_search = new System.Windows.Forms.Button();
+            this.lbl_Customer_Management = new System.Windows.Forms.Label();
+            this.txt_Customer_search = new System.Windows.Forms.TextBox();
+            this.lsv_Customers_all = new System.Windows.Forms.ListView();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.btn_Office_delete = new System.Windows.Forms.Button();
+            this.btn_Office_edit = new System.Windows.Forms.Button();
+            this.btn_Office_add = new System.Windows.Forms.Button();
+            this.cbo_Office_select = new System.Windows.Forms.ComboBox();
+            this.lbl_Office = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -184,22 +184,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(987, 654);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Tietojen Hallinta";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage2.Controls.Add(this.groupBox7);
-            this.tabPage2.Controls.Add(this.groupBox8);
-            this.tabPage2.Controls.Add(this.groupBox9);
-            this.tabPage2.Controls.Add(this.groupBox10);
-            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(987, 654);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Uusi tilaus";
+            this.tabPage1.Text = "Uusi tilaus";
             // 
             // groupBox6
             // 
@@ -667,333 +652,20 @@
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 66;
             // 
-            // groupBox7
+            // tabPage2
             // 
-            this.groupBox7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox7.Controls.Add(this.button12);
-            this.groupBox7.Controls.Add(this.button3);
-            this.groupBox7.Controls.Add(this.button14);
-            this.groupBox7.Controls.Add(this.button15);
-            this.groupBox7.Controls.Add(this.label22);
-            this.groupBox7.Controls.Add(this.textBox3);
-            this.groupBox7.Controls.Add(this.listView5);
-            this.groupBox7.Location = new System.Drawing.Point(68, 9);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(258, 625);
-            this.groupBox7.TabIndex = 119;
-            this.groupBox7.TabStop = false;
-            // 
-            // button12
-            // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button12.Location = new System.Drawing.Point(182, 563);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(48, 48);
-            this.button12.TabIndex = 109;
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(103, 559);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(48, 48);
-            this.button3.TabIndex = 108;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button14.Location = new System.Drawing.Point(16, 563);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(48, 48);
-            this.button14.TabIndex = 107;
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button15.Location = new System.Drawing.Point(198, 529);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(32, 32);
-            this.button15.TabIndex = 101;
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(18, 16);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(169, 20);
-            this.label22.TabIndex = 77;
-            this.label22.Text = "Asiakkaiden hallinta";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox3.Location = new System.Drawing.Point(16, 527);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(171, 26);
-            this.textBox3.TabIndex = 100;
-            // 
-            // listView5
-            // 
-            this.listView5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView5.Location = new System.Drawing.Point(16, 50);
-            this.listView5.Name = "listView5";
-            this.listView5.Size = new System.Drawing.Size(214, 471);
-            this.listView5.TabIndex = 99;
-            this.listView5.UseCompatibleStateImageBehavior = false;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox8.Controls.Add(this.button8);
-            this.groupBox8.Controls.Add(this.button9);
-            this.groupBox8.Controls.Add(this.button10);
-            this.groupBox8.Controls.Add(this.button11);
-            this.groupBox8.Controls.Add(this.label24);
-            this.groupBox8.Controls.Add(this.textBox2);
-            this.groupBox8.Controls.Add(this.listView6);
-            this.groupBox8.Location = new System.Drawing.Point(359, 142);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(260, 492);
-            this.groupBox8.TabIndex = 118;
-            this.groupBox8.TabStop = false;
-            // 
-            // button8
-            // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button8.Location = new System.Drawing.Point(182, 432);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(48, 48);
-            this.button8.TabIndex = 109;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button9.Location = new System.Drawing.Point(99, 430);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(48, 48);
-            this.button9.TabIndex = 108;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button10.Location = new System.Drawing.Point(16, 430);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(48, 48);
-            this.button10.TabIndex = 107;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button11.Location = new System.Drawing.Point(198, 396);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(32, 32);
-            this.button11.TabIndex = 101;
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(18, 16);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(177, 20);
-            this.label24.TabIndex = 77;
-            this.label24.Text = "Toimipisteen palvelut";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.Location = new System.Drawing.Point(13, 394);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(179, 26);
-            this.textBox2.TabIndex = 100;
-            // 
-            // listView6
-            // 
-            this.listView6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView6.Location = new System.Drawing.Point(16, 50);
-            this.listView6.Name = "listView6";
-            this.listView6.Size = new System.Drawing.Size(214, 338);
-            this.listView6.TabIndex = 99;
-            this.listView6.UseCompatibleStateImageBehavior = false;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox9.Controls.Add(this.button6);
-            this.groupBox9.Controls.Add(this.button16);
-            this.groupBox9.Controls.Add(this.button17);
-            this.groupBox9.Controls.Add(this.button18);
-            this.groupBox9.Controls.Add(this.label25);
-            this.groupBox9.Controls.Add(this.textBox4);
-            this.groupBox9.Controls.Add(this.listView7);
-            this.groupBox9.Location = new System.Drawing.Point(653, 9);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(239, 625);
-            this.groupBox9.TabIndex = 116;
-            this.groupBox9.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button6.Location = new System.Drawing.Point(179, 565);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(48, 48);
-            this.button6.TabIndex = 109;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button16.Location = new System.Drawing.Point(99, 565);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(48, 48);
-            this.button16.TabIndex = 108;
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button17.Location = new System.Drawing.Point(17, 565);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(48, 48);
-            this.button17.TabIndex = 107;
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button18.Location = new System.Drawing.Point(195, 527);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(32, 32);
-            this.button18.TabIndex = 101;
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(12, 16);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(158, 20);
-            this.label25.TabIndex = 77;
-            this.label25.Text = "Toimipisteen mökit";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox4.Location = new System.Drawing.Point(17, 527);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(172, 26);
-            this.textBox4.TabIndex = 100;
-            // 
-            // listView7
-            // 
-            this.listView7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView7.Location = new System.Drawing.Point(16, 50);
-            this.listView7.Name = "listView7";
-            this.listView7.Size = new System.Drawing.Size(205, 471);
-            this.listView7.TabIndex = 99;
-            this.listView7.UseCompatibleStateImageBehavior = false;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox10.Controls.Add(this.button19);
-            this.groupBox10.Controls.Add(this.button20);
-            this.groupBox10.Controls.Add(this.button21);
-            this.groupBox10.Controls.Add(this.comboBox4);
-            this.groupBox10.Controls.Add(this.label26);
-            this.groupBox10.Location = new System.Drawing.Point(359, 9);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(260, 127);
-            this.groupBox10.TabIndex = 117;
-            this.groupBox10.TabStop = false;
-            // 
-            // button19
-            // 
-            this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button19.Location = new System.Drawing.Point(182, 74);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(48, 48);
-            this.button19.TabIndex = 112;
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button20.Location = new System.Drawing.Point(99, 74);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(48, 48);
-            this.button20.TabIndex = 111;
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button21.Location = new System.Drawing.Point(16, 74);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(48, 48);
-            this.button21.TabIndex = 110;
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(13, 40);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(217, 28);
-            this.comboBox4.TabIndex = 104;
-            this.comboBox4.Text = "Valitse toimipiste";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(9, 16);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(167, 20);
-            this.label26.TabIndex = 103;
-            this.label26.Text = "Toimipisteen valinta";
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.groupBox7);
+            this.tabPage2.Controls.Add(this.groupBox8);
+            this.tabPage2.Controls.Add(this.groupBox9);
+            this.tabPage2.Controls.Add(this.groupBox10);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(987, 654);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Tietojen Hallinta";
             // 
             // tabPage3
             // 
@@ -1325,20 +997,347 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Ohjeet";
             // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.groupBox7.Controls.Add(this.btn_Services_delete);
+            this.groupBox7.Controls.Add(this.btn_Services_edit);
+            this.groupBox7.Controls.Add(this.btn_Services_add);
+            this.groupBox7.Controls.Add(this.btn_Services_search);
+            this.groupBox7.Controls.Add(this.lbl_Services);
+            this.groupBox7.Controls.Add(this.txt_Services_search);
+            this.groupBox7.Controls.Add(this.lsv_Services_all);
+            this.groupBox7.Location = new System.Drawing.Point(346, 149);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(260, 505);
+            this.groupBox7.TabIndex = 123;
+            this.groupBox7.TabStop = false;
+            // 
+            // btn_Services_delete
+            // 
+            this.btn_Services_delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_delete.BackgroundImage")));
+            this.btn_Services_delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Services_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Services_delete.Location = new System.Drawing.Point(182, 444);
+            this.btn_Services_delete.Name = "btn_Services_delete";
+            this.btn_Services_delete.Size = new System.Drawing.Size(48, 48);
+            this.btn_Services_delete.TabIndex = 109;
+            this.btn_Services_delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_Services_edit
+            // 
+            this.btn_Services_edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_edit.BackgroundImage")));
+            this.btn_Services_edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Services_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Services_edit.Location = new System.Drawing.Point(99, 444);
+            this.btn_Services_edit.Name = "btn_Services_edit";
+            this.btn_Services_edit.Size = new System.Drawing.Size(48, 48);
+            this.btn_Services_edit.TabIndex = 108;
+            this.btn_Services_edit.UseVisualStyleBackColor = true;
+            // 
+            // btn_Services_add
+            // 
+            this.btn_Services_add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_add.BackgroundImage")));
+            this.btn_Services_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Services_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Services_add.Location = new System.Drawing.Point(16, 444);
+            this.btn_Services_add.Name = "btn_Services_add";
+            this.btn_Services_add.Size = new System.Drawing.Size(48, 48);
+            this.btn_Services_add.TabIndex = 107;
+            this.btn_Services_add.UseVisualStyleBackColor = true;
+            // 
+            // btn_Services_search
+            // 
+            this.btn_Services_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_search.BackgroundImage")));
+            this.btn_Services_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Services_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Services_search.Location = new System.Drawing.Point(198, 396);
+            this.btn_Services_search.Name = "btn_Services_search";
+            this.btn_Services_search.Size = new System.Drawing.Size(32, 32);
+            this.btn_Services_search.TabIndex = 101;
+            this.btn_Services_search.UseVisualStyleBackColor = true;
+            // 
+            // lbl_Services
+            // 
+            this.lbl_Services.AutoSize = true;
+            this.lbl_Services.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Services.Location = new System.Drawing.Point(18, 16);
+            this.lbl_Services.Name = "lbl_Services";
+            this.lbl_Services.Size = new System.Drawing.Size(177, 20);
+            this.lbl_Services.TabIndex = 77;
+            this.lbl_Services.Text = "Toimipisteen palvelut";
+            // 
+            // txt_Services_search
+            // 
+            this.txt_Services_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txt_Services_search.Location = new System.Drawing.Point(16, 398);
+            this.txt_Services_search.Name = "txt_Services_search";
+            this.txt_Services_search.Size = new System.Drawing.Size(179, 26);
+            this.txt_Services_search.TabIndex = 100;
+            // 
+            // lsv_Services_all
+            // 
+            this.lsv_Services_all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lsv_Services_all.Location = new System.Drawing.Point(16, 50);
+            this.lsv_Services_all.Name = "lsv_Services_all";
+            this.lsv_Services_all.Size = new System.Drawing.Size(214, 338);
+            this.lsv_Services_all.TabIndex = 99;
+            this.lsv_Services_all.UseCompatibleStateImageBehavior = false;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.groupBox8.Controls.Add(this.button3);
+            this.groupBox8.Controls.Add(this.button6);
+            this.groupBox8.Controls.Add(this.button8);
+            this.groupBox8.Controls.Add(this.button9);
+            this.groupBox8.Controls.Add(this.lbl_Cottages);
+            this.groupBox8.Controls.Add(this.textBox2);
+            this.groupBox8.Controls.Add(this.listView5);
+            this.groupBox8.Location = new System.Drawing.Point(640, 0);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(260, 654);
+            this.groupBox8.TabIndex = 121;
+            this.groupBox8.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button3.Location = new System.Drawing.Point(183, 587);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(48, 48);
+            this.button3.TabIndex = 109;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button6.Location = new System.Drawing.Point(100, 587);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(48, 48);
+            this.button6.TabIndex = 108;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button8.Location = new System.Drawing.Point(17, 587);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(48, 48);
+            this.button8.TabIndex = 107;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button9.Location = new System.Drawing.Point(199, 541);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(32, 32);
+            this.button9.TabIndex = 101;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // lbl_Cottages
+            // 
+            this.lbl_Cottages.AutoSize = true;
+            this.lbl_Cottages.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottages.Location = new System.Drawing.Point(12, 16);
+            this.lbl_Cottages.Name = "lbl_Cottages";
+            this.lbl_Cottages.Size = new System.Drawing.Size(158, 20);
+            this.lbl_Cottages.TabIndex = 77;
+            this.lbl_Cottages.Text = "Toimipisteen mökit";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox2.Location = new System.Drawing.Point(17, 543);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(172, 26);
+            this.textBox2.TabIndex = 100;
+            // 
+            // listView5
+            // 
+            this.listView5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.listView5.Location = new System.Drawing.Point(16, 50);
+            this.listView5.Name = "listView5";
+            this.listView5.Size = new System.Drawing.Size(214, 487);
+            this.listView5.TabIndex = 99;
+            this.listView5.UseCompatibleStateImageBehavior = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.groupBox9.Controls.Add(this.btn_Customer_delete);
+            this.groupBox9.Controls.Add(this.btn_Customer_edit);
+            this.groupBox9.Controls.Add(this.btn_Customer_add);
+            this.groupBox9.Controls.Add(this.btn_Customer_search);
+            this.groupBox9.Controls.Add(this.lbl_Customer_Management);
+            this.groupBox9.Controls.Add(this.txt_Customer_search);
+            this.groupBox9.Controls.Add(this.lsv_Customers_all);
+            this.groupBox9.Location = new System.Drawing.Point(54, 10);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(260, 648);
+            this.groupBox9.TabIndex = 124;
+            this.groupBox9.TabStop = false;
+            // 
+            // btn_Customer_delete
+            // 
+            this.btn_Customer_delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_delete.BackgroundImage")));
+            this.btn_Customer_delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Customer_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Customer_delete.Location = new System.Drawing.Point(182, 593);
+            this.btn_Customer_delete.Name = "btn_Customer_delete";
+            this.btn_Customer_delete.Size = new System.Drawing.Size(48, 48);
+            this.btn_Customer_delete.TabIndex = 109;
+            this.btn_Customer_delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_Customer_edit
+            // 
+            this.btn_Customer_edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_edit.BackgroundImage")));
+            this.btn_Customer_edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Customer_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Customer_edit.Location = new System.Drawing.Point(102, 593);
+            this.btn_Customer_edit.Name = "btn_Customer_edit";
+            this.btn_Customer_edit.Size = new System.Drawing.Size(48, 48);
+            this.btn_Customer_edit.TabIndex = 108;
+            this.btn_Customer_edit.UseVisualStyleBackColor = true;
+            // 
+            // btn_Customer_add
+            // 
+            this.btn_Customer_add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_add.BackgroundImage")));
+            this.btn_Customer_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Customer_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Customer_add.Location = new System.Drawing.Point(16, 591);
+            this.btn_Customer_add.Name = "btn_Customer_add";
+            this.btn_Customer_add.Size = new System.Drawing.Size(48, 48);
+            this.btn_Customer_add.TabIndex = 107;
+            this.btn_Customer_add.UseVisualStyleBackColor = true;
+            // 
+            // btn_Customer_search
+            // 
+            this.btn_Customer_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_search.BackgroundImage")));
+            this.btn_Customer_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Customer_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Customer_search.Location = new System.Drawing.Point(198, 543);
+            this.btn_Customer_search.Name = "btn_Customer_search";
+            this.btn_Customer_search.Size = new System.Drawing.Size(32, 32);
+            this.btn_Customer_search.TabIndex = 101;
+            this.btn_Customer_search.UseVisualStyleBackColor = true;
+            // 
+            // lbl_Customer_Management
+            // 
+            this.lbl_Customer_Management.AutoSize = true;
+            this.lbl_Customer_Management.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Customer_Management.Location = new System.Drawing.Point(18, 16);
+            this.lbl_Customer_Management.Name = "lbl_Customer_Management";
+            this.lbl_Customer_Management.Size = new System.Drawing.Size(169, 20);
+            this.lbl_Customer_Management.TabIndex = 77;
+            this.lbl_Customer_Management.Text = "Asiakkaiden hallinta";
+            // 
+            // txt_Customer_search
+            // 
+            this.txt_Customer_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txt_Customer_search.Location = new System.Drawing.Point(16, 546);
+            this.txt_Customer_search.Name = "txt_Customer_search";
+            this.txt_Customer_search.Size = new System.Drawing.Size(171, 26);
+            this.txt_Customer_search.TabIndex = 100;
+            // 
+            // lsv_Customers_all
+            // 
+            this.lsv_Customers_all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lsv_Customers_all.Location = new System.Drawing.Point(16, 50);
+            this.lsv_Customers_all.Name = "lsv_Customers_all";
+            this.lsv_Customers_all.Size = new System.Drawing.Size(214, 487);
+            this.lsv_Customers_all.TabIndex = 99;
+            this.lsv_Customers_all.UseCompatibleStateImageBehavior = false;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.groupBox10.Controls.Add(this.btn_Office_delete);
+            this.groupBox10.Controls.Add(this.btn_Office_edit);
+            this.groupBox10.Controls.Add(this.btn_Office_add);
+            this.groupBox10.Controls.Add(this.cbo_Office_select);
+            this.groupBox10.Controls.Add(this.lbl_Office);
+            this.groupBox10.Location = new System.Drawing.Point(346, 0);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(260, 143);
+            this.groupBox10.TabIndex = 122;
+            this.groupBox10.TabStop = false;
+            // 
+            // btn_Office_delete
+            // 
+            this.btn_Office_delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_delete.BackgroundImage")));
+            this.btn_Office_delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Office_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Office_delete.Location = new System.Drawing.Point(182, 74);
+            this.btn_Office_delete.Name = "btn_Office_delete";
+            this.btn_Office_delete.Size = new System.Drawing.Size(48, 48);
+            this.btn_Office_delete.TabIndex = 112;
+            this.btn_Office_delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_Office_edit
+            // 
+            this.btn_Office_edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_edit.BackgroundImage")));
+            this.btn_Office_edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Office_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Office_edit.Location = new System.Drawing.Point(99, 74);
+            this.btn_Office_edit.Name = "btn_Office_edit";
+            this.btn_Office_edit.Size = new System.Drawing.Size(48, 48);
+            this.btn_Office_edit.TabIndex = 111;
+            this.btn_Office_edit.UseVisualStyleBackColor = true;
+            // 
+            // btn_Office_add
+            // 
+            this.btn_Office_add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_add.BackgroundImage")));
+            this.btn_Office_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Office_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Office_add.Location = new System.Drawing.Point(16, 74);
+            this.btn_Office_add.Name = "btn_Office_add";
+            this.btn_Office_add.Size = new System.Drawing.Size(48, 48);
+            this.btn_Office_add.TabIndex = 110;
+            this.btn_Office_add.UseVisualStyleBackColor = true;
+            // 
+            // cbo_Office_select
+            // 
+            this.cbo_Office_select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_Office_select.FormattingEnabled = true;
+            this.cbo_Office_select.Location = new System.Drawing.Point(13, 40);
+            this.cbo_Office_select.Name = "cbo_Office_select";
+            this.cbo_Office_select.Size = new System.Drawing.Size(217, 28);
+            this.cbo_Office_select.TabIndex = 104;
+            this.cbo_Office_select.Text = "Valitse toimipiste";
+            // 
+            // lbl_Office
+            // 
+            this.lbl_Office.AutoSize = true;
+            this.lbl_Office.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Office.Location = new System.Drawing.Point(9, 16);
+            this.lbl_Office.Name = "lbl_Office";
+            this.lbl_Office.Size = new System.Drawing.Size(167, 20);
+            this.lbl_Office.TabIndex = 103;
+            this.lbl_Office.Text = "Toimipisteen valinta";
+            // 
             // Order_tab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(984, 670);
+            this.ClientSize = new System.Drawing.Size(984, 681);
             this.Controls.Add(this.tabControl1);
             this.Name = "Order_tab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Uusi tilaus";
+            this.Text = "MahtiMökit";
             this.Load += new System.EventHandler(this.Varaus_uusi_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1351,6 +1350,12 @@
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
@@ -1359,11 +1364,6 @@
             this.groupBox9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1417,36 +1417,6 @@
         private System.Windows.Forms.MonthCalendar monthCalendar2;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ListView listView5;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ListView listView6;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ListView listView7;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Button button22;
@@ -1479,5 +1449,35 @@
         private System.Windows.Forms.ListView listView8;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button btn_Services_delete;
+        private System.Windows.Forms.Button btn_Services_edit;
+        private System.Windows.Forms.Button btn_Services_add;
+        private System.Windows.Forms.Button btn_Services_search;
+        private System.Windows.Forms.Label lbl_Services;
+        private System.Windows.Forms.TextBox txt_Services_search;
+        private System.Windows.Forms.ListView lsv_Services_all;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label lbl_Cottages;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ListView listView5;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.Button btn_Customer_delete;
+        private System.Windows.Forms.Button btn_Customer_edit;
+        private System.Windows.Forms.Button btn_Customer_add;
+        private System.Windows.Forms.Button btn_Customer_search;
+        private System.Windows.Forms.Label lbl_Customer_Management;
+        private System.Windows.Forms.TextBox txt_Customer_search;
+        private System.Windows.Forms.ListView lsv_Customers_all;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Button btn_Office_delete;
+        private System.Windows.Forms.Button btn_Office_edit;
+        private System.Windows.Forms.Button btn_Office_add;
+        private System.Windows.Forms.ComboBox cbo_Office_select;
+        private System.Windows.Forms.Label lbl_Office;
     }
 }
