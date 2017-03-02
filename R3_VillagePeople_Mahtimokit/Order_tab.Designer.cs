@@ -117,13 +117,13 @@
             this.txt_Services_search = new System.Windows.Forms.TextBox();
             this.lsv_Services_all = new System.Windows.Forms.ListView();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn_Cottages_delete = new System.Windows.Forms.Button();
+            this.btn_Cottages_edit = new System.Windows.Forms.Button();
+            this.btn_Cottages_add = new System.Windows.Forms.Button();
+            this.btn_Cottages_search = new System.Windows.Forms.Button();
             this.lbl_Cottages = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.listView5 = new System.Windows.Forms.ListView();
+            this.txt_Cottages_search = new System.Windows.Forms.TextBox();
+            this.lsv_Cottages_all = new System.Windows.Forms.ListView();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.btn_Customer_delete = new System.Windows.Forms.Button();
             this.btn_Customer_edit = new System.Windows.Forms.Button();
@@ -1087,62 +1087,62 @@
             // groupBox8
             // 
             this.groupBox8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox8.Controls.Add(this.button3);
-            this.groupBox8.Controls.Add(this.button6);
-            this.groupBox8.Controls.Add(this.button8);
-            this.groupBox8.Controls.Add(this.button9);
+            this.groupBox8.Controls.Add(this.btn_Cottages_delete);
+            this.groupBox8.Controls.Add(this.btn_Cottages_edit);
+            this.groupBox8.Controls.Add(this.btn_Cottages_add);
+            this.groupBox8.Controls.Add(this.btn_Cottages_search);
             this.groupBox8.Controls.Add(this.lbl_Cottages);
-            this.groupBox8.Controls.Add(this.textBox2);
-            this.groupBox8.Controls.Add(this.listView5);
+            this.groupBox8.Controls.Add(this.txt_Cottages_search);
+            this.groupBox8.Controls.Add(this.lsv_Cottages_all);
             this.groupBox8.Location = new System.Drawing.Point(640, 0);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(260, 654);
             this.groupBox8.TabIndex = 121;
             this.groupBox8.TabStop = false;
             // 
-            // button3
+            // btn_Cottages_delete
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(183, 587);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(48, 48);
-            this.button3.TabIndex = 109;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_Cottages_delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_delete.BackgroundImage")));
+            this.btn_Cottages_delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Cottages_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Cottages_delete.Location = new System.Drawing.Point(183, 587);
+            this.btn_Cottages_delete.Name = "btn_Cottages_delete";
+            this.btn_Cottages_delete.Size = new System.Drawing.Size(48, 48);
+            this.btn_Cottages_delete.TabIndex = 109;
+            this.btn_Cottages_delete.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn_Cottages_edit
             // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button6.Location = new System.Drawing.Point(100, 587);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(48, 48);
-            this.button6.TabIndex = 108;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_Cottages_edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_edit.BackgroundImage")));
+            this.btn_Cottages_edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Cottages_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Cottages_edit.Location = new System.Drawing.Point(100, 587);
+            this.btn_Cottages_edit.Name = "btn_Cottages_edit";
+            this.btn_Cottages_edit.Size = new System.Drawing.Size(48, 48);
+            this.btn_Cottages_edit.TabIndex = 108;
+            this.btn_Cottages_edit.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btn_Cottages_add
             // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button8.Location = new System.Drawing.Point(17, 587);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(48, 48);
-            this.button8.TabIndex = 107;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_Cottages_add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_add.BackgroundImage")));
+            this.btn_Cottages_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Cottages_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Cottages_add.Location = new System.Drawing.Point(17, 587);
+            this.btn_Cottages_add.Name = "btn_Cottages_add";
+            this.btn_Cottages_add.Size = new System.Drawing.Size(48, 48);
+            this.btn_Cottages_add.TabIndex = 107;
+            this.btn_Cottages_add.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btn_Cottages_search
             // 
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button9.Location = new System.Drawing.Point(199, 541);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(32, 32);
-            this.button9.TabIndex = 101;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_Cottages_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_search.BackgroundImage")));
+            this.btn_Cottages_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Cottages_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btn_Cottages_search.Location = new System.Drawing.Point(199, 541);
+            this.btn_Cottages_search.Name = "btn_Cottages_search";
+            this.btn_Cottages_search.Size = new System.Drawing.Size(32, 32);
+            this.btn_Cottages_search.TabIndex = 101;
+            this.btn_Cottages_search.UseVisualStyleBackColor = true;
             // 
             // lbl_Cottages
             // 
@@ -1154,22 +1154,22 @@
             this.lbl_Cottages.TabIndex = 77;
             this.lbl_Cottages.Text = "Toimipisteen mökit";
             // 
-            // textBox2
+            // txt_Cottages_search
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.Location = new System.Drawing.Point(17, 543);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(172, 26);
-            this.textBox2.TabIndex = 100;
+            this.txt_Cottages_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txt_Cottages_search.Location = new System.Drawing.Point(17, 543);
+            this.txt_Cottages_search.Name = "txt_Cottages_search";
+            this.txt_Cottages_search.Size = new System.Drawing.Size(172, 26);
+            this.txt_Cottages_search.TabIndex = 100;
             // 
-            // listView5
+            // lsv_Cottages_all
             // 
-            this.listView5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView5.Location = new System.Drawing.Point(16, 50);
-            this.listView5.Name = "listView5";
-            this.listView5.Size = new System.Drawing.Size(214, 487);
-            this.listView5.TabIndex = 99;
-            this.listView5.UseCompatibleStateImageBehavior = false;
+            this.lsv_Cottages_all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lsv_Cottages_all.Location = new System.Drawing.Point(16, 50);
+            this.lsv_Cottages_all.Name = "lsv_Cottages_all";
+            this.lsv_Cottages_all.Size = new System.Drawing.Size(214, 487);
+            this.lsv_Cottages_all.TabIndex = 99;
+            this.lsv_Cottages_all.UseCompatibleStateImageBehavior = false;
             // 
             // groupBox9
             // 
@@ -1458,13 +1458,13 @@
         private System.Windows.Forms.TextBox txt_Services_search;
         private System.Windows.Forms.ListView lsv_Services_all;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn_Cottages_delete;
+        private System.Windows.Forms.Button btn_Cottages_edit;
+        private System.Windows.Forms.Button btn_Cottages_add;
+        private System.Windows.Forms.Button btn_Cottages_search;
         private System.Windows.Forms.Label lbl_Cottages;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ListView listView5;
+        private System.Windows.Forms.TextBox txt_Cottages_search;
+        private System.Windows.Forms.ListView lsv_Cottages_all;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Button btn_Customer_delete;
         private System.Windows.Forms.Button btn_Customer_edit;
