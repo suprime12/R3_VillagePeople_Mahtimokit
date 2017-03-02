@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cottage_popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cottage_popup.Designer.cs">
+      <DependentUpon>Cottage_popup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Edit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer_Edit.Designer.cs">
       <DependentUpon>Customer_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Office_popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Office_popup.Designer.cs">
+      <DependentUpon>Office_popup.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,8 +78,14 @@
     <Compile Include="Order_tab.Designer.cs">
       <DependentUpon>Order_tab.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cottage_popup.resx">
+      <DependentUpon>Cottage_popup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer_Edit.resx">
       <DependentUpon>Customer_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_popup.resx">
+      <DependentUpon>Office_popup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
