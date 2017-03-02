@@ -73,9 +73,8 @@ namespace R3_VillagePeople_Mahtimokit
             lomake.Show();
         }
 
-        private void listView8_SelectedIndexChanged(object sender, EventArgs e)
+        private void varauksetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
