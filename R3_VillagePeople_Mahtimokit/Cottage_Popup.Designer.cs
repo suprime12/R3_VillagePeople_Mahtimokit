@@ -254,7 +254,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Cottage_popup";
-            this.Text = "Cottage_Popup";
+            this.Text = "Cottage_popup";
             this.ResumeLayout(false);
             this.PerformLayout();
 
