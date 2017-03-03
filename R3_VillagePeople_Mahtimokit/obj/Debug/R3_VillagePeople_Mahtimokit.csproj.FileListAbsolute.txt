@@ -19,3 +19,5 @@ D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_Vil
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Properties.Resources.resources
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.cal_Order_Cottage_end.resources
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Cottage_popup.resources
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Office_popup.resources
