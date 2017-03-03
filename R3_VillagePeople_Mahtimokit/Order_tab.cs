@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class Order_tab : Form
+    public partial class cal_Order_Cottage_end : Form
     {
-        public Order_tab()
+        public cal_Order_Cottage_end()
         {
             InitializeComponent();
         }
