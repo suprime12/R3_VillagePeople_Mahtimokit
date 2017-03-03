@@ -16,5 +16,10 @@ namespace R3_VillagePeople_Mahtimokit
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
