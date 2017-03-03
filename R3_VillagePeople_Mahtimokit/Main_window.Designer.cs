@@ -107,35 +107,6 @@
             this.cbo_Office_select = new System.Windows.Forms.ComboBox();
             this.lbl_Office = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.button22 = new System.Windows.Forms.Button();
-            this.label27 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.label35 = new System.Windows.Forms.Label();
-            this.button27 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.listView8 = new System.Windows.Forms.ListView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tab_Menu.SuspendLayout();
@@ -152,8 +123,6 @@
             this.grb_Customer_Management.SuspendLayout();
             this.grb_Office.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // tab_Menu
@@ -999,8 +968,6 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage3.Controls.Add(this.groupBox11);
-            this.tabPage3.Controls.Add(this.groupBox12);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
@@ -1008,304 +975,6 @@
             this.tabPage3.Size = new System.Drawing.Size(987, 654);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Tilaushistoria";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox11.Controls.Add(this.button22);
-            this.groupBox11.Controls.Add(this.label27);
-            this.groupBox11.Controls.Add(this.comboBox5);
-            this.groupBox11.Controls.Add(this.label28);
-            this.groupBox11.Controls.Add(this.label29);
-            this.groupBox11.Controls.Add(this.label30);
-            this.groupBox11.Controls.Add(this.label31);
-            this.groupBox11.Controls.Add(this.label32);
-            this.groupBox11.Controls.Add(this.button23);
-            this.groupBox11.Controls.Add(this.label33);
-            this.groupBox11.Controls.Add(this.label34);
-            this.groupBox11.Controls.Add(this.comboBox6);
-            this.groupBox11.Controls.Add(this.comboBox7);
-            this.groupBox11.Controls.Add(this.comboBox8);
-            this.groupBox11.Controls.Add(this.textBox5);
-            this.groupBox11.Controls.Add(this.textBox6);
-            this.groupBox11.Controls.Add(this.textBox7);
-            this.groupBox11.Controls.Add(this.textBox8);
-            this.groupBox11.Controls.Add(this.textBox9);
-            this.groupBox11.Controls.Add(this.textBox10);
-            this.groupBox11.Location = new System.Drawing.Point(345, 13);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(560, 378);
-            this.groupBox11.TabIndex = 130;
-            this.groupBox11.TabStop = false;
-            // 
-            // button22
-            // 
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button22.Location = new System.Drawing.Point(328, 302);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(167, 41);
-            this.button22.TabIndex = 127;
-            this.button22.Text = "Tyhjennä kentät";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label27.Location = new System.Drawing.Point(9, 9);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(197, 20);
-            this.label27.TabIndex = 126;
-            this.label27.Text = "Uuden asiakkaan lisäys";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(233, 181);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(262, 28);
-            this.comboBox5.TabIndex = 124;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(9, 255);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(103, 20);
-            this.label28.TabIndex = 123;
-            this.label28.Text = "Syntymäaika:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(9, 221);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(93, 20);
-            this.label29.TabIndex = 122;
-            this.label29.Text = "Sähköposti:";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(9, 189);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(44, 20);
-            this.label30.TabIndex = 121;
-            this.label30.Text = "Maa:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(9, 157);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(206, 20);
-            this.label31.TabIndex = 120;
-            this.label31.Text = "Postinumero ja -toimipaikka:";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(9, 125);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(59, 20);
-            this.label32.TabIndex = 119;
-            this.label32.Text = "Osoite:";
-            // 
-            // button23
-            // 
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button23.Location = new System.Drawing.Point(10, 302);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(167, 41);
-            this.button23.TabIndex = 98;
-            this.button23.Text = "Lisää uusi asiakas";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(9, 93);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(78, 20);
-            this.label33.TabIndex = 118;
-            this.label33.Text = "Sukunimi:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(9, 61);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(66, 20);
-            this.label34.TabIndex = 117;
-            this.label34.Text = "Etunimi:";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(421, 247);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(74, 28);
-            this.comboBox6.TabIndex = 116;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(326, 247);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(74, 28);
-            this.comboBox7.TabIndex = 115;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(233, 247);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(74, 28);
-            this.comboBox8.TabIndex = 114;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(233, 87);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(262, 26);
-            this.textBox5.TabIndex = 113;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(348, 151);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(147, 26);
-            this.textBox6.TabIndex = 112;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(233, 215);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(262, 26);
-            this.textBox7.TabIndex = 111;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(233, 151);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(96, 26);
-            this.textBox8.TabIndex = 110;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(233, 119);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(262, 26);
-            this.textBox9.TabIndex = 109;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(233, 55);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(262, 26);
-            this.textBox10.TabIndex = 108;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox12.Controls.Add(this.button24);
-            this.groupBox12.Controls.Add(this.button25);
-            this.groupBox12.Controls.Add(this.button26);
-            this.groupBox12.Controls.Add(this.label35);
-            this.groupBox12.Controls.Add(this.button27);
-            this.groupBox12.Controls.Add(this.textBox11);
-            this.groupBox12.Controls.Add(this.listView8);
-            this.groupBox12.Location = new System.Drawing.Point(76, 11);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(255, 619);
-            this.groupBox12.TabIndex = 129;
-            this.groupBox12.TabStop = false;
-            // 
-            // button24
-            // 
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button24.Location = new System.Drawing.Point(19, 556);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(193, 41);
-            this.button24.TabIndex = 105;
-            this.button24.Text = "Tilaushistoria";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button25.Location = new System.Drawing.Point(19, 509);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(193, 41);
-            this.button25.TabIndex = 104;
-            this.button25.Text = "Poista asiakas";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button26.Location = new System.Drawing.Point(19, 462);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(193, 41);
-            this.button26.TabIndex = 103;
-            this.button26.Text = "Muokkaa asiakasta";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label35.Location = new System.Drawing.Point(22, 11);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(163, 20);
-            this.label35.TabIndex = 102;
-            this.label35.Text = "Asiakkaiden valinta";
-            // 
-            // button27
-            // 
-            this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button27.Location = new System.Drawing.Point(180, 406);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(32, 32);
-            this.button27.TabIndex = 101;
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox11.Location = new System.Drawing.Point(19, 412);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(155, 26);
-            this.textBox11.TabIndex = 100;
-            // 
-            // listView8
-            // 
-            this.listView8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.listView8.Location = new System.Drawing.Point(19, 39);
-            this.listView8.Name = "listView8";
-            this.listView8.Size = new System.Drawing.Size(193, 353);
-            this.listView8.TabIndex = 99;
-            this.listView8.UseCompatibleStateImageBehavior = false;
-            this.listView8.SelectedIndexChanged += new System.EventHandler(this.listView8_SelectedIndexChanged);
             // 
             // tabPage4
             // 
@@ -1336,7 +1005,7 @@
             this.Name = "cal_Order_Cottage_end";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MahtiMökit";
-            this.Load += new System.EventHandler(this.Varaus_uusi_Load);
+            // Vanhaa koodia: this.Load += new System.EventHandler(this.Varaus_uusi_Load);
             this.tab_Menu.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.grb_Order_Customers.ResumeLayout(false);
@@ -1361,10 +1030,6 @@
             this.grb_Office.ResumeLayout(false);
             this.grb_Office.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1419,35 +1084,6 @@
         private System.Windows.Forms.MonthCalendar cal_Order_Cottage_begin;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.ListView listView8;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.GroupBox grb_Services;
