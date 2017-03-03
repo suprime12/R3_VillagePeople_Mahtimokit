@@ -17,6 +17,5 @@ D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_Vil
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csprojResolveAssemblyReference.cache
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Customer_Edit.resources
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Properties.Resources.resources
-D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Management_tab.resources
-D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Order_tab.resources
 D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.cal_Order_Cottage_end.resources
