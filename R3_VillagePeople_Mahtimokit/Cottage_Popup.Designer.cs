@@ -28,231 +28,231 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lbl_Cottage_Name = new System.Windows.Forms.Label();
+            this.txt_Cottage_Name = new System.Windows.Forms.TextBox();
+            this.lbl_Cottage_Description = new System.Windows.Forms.Label();
+            this.txt_Cottage_Description = new System.Windows.Forms.TextBox();
+            this.lbl_Cottage_Price = new System.Windows.Forms.Label();
+            this.txt_Cottage_Price = new System.Windows.Forms.TextBox();
+            this.lbl_Cottage_Max_Visitors = new System.Windows.Forms.Label();
+            this.txt_Cottage_Max_Visitors = new System.Windows.Forms.TextBox();
+            this.lbl_Cottage_Size = new System.Windows.Forms.Label();
+            this.lbl_Cottage_Wlan = new System.Windows.Forms.Label();
+            this.lbl_Cottage_Postal_Code_City = new System.Windows.Forms.Label();
+            this.txt_Cottage_Postal_Code = new System.Windows.Forms.TextBox();
+            this.lbl_Cottage_Adress = new System.Windows.Forms.Label();
+            this.txt_Cottage_Adress = new System.Windows.Forms.TextBox();
+            this.txt_Cottage_City = new System.Windows.Forms.TextBox();
+            this.btn_Cottage_Cancel = new System.Windows.Forms.Button();
+            this.btn_Cottage_Save = new System.Windows.Forms.Button();
+            this.rbu_Cottage_Wlan_Yes = new System.Windows.Forms.RadioButton();
+            this.rbu_Cottage_Wlan_No = new System.Windows.Forms.RadioButton();
+            this.txt_Cottage_Size = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_Cottage_Name
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(233, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 20);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Nimi:";
+            this.lbl_Cottage_Name.AutoSize = true;
+            this.lbl_Cottage_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Name.Location = new System.Drawing.Point(233, 42);
+            this.lbl_Cottage_Name.Name = "lbl_Cottage_Name";
+            this.lbl_Cottage_Name.Size = new System.Drawing.Size(43, 20);
+            this.lbl_Cottage_Name.TabIndex = 17;
+            this.lbl_Cottage_Name.Text = "Nimi:";
             // 
-            // textBox1
+            // txt_Cottage_Name
             // 
-            this.textBox1.Location = new System.Drawing.Point(473, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(287, 20);
-            this.textBox1.TabIndex = 18;
+            this.txt_Cottage_Name.Location = new System.Drawing.Point(473, 42);
+            this.txt_Cottage_Name.Name = "txt_Cottage_Name";
+            this.txt_Cottage_Name.Size = new System.Drawing.Size(287, 20);
+            this.txt_Cottage_Name.TabIndex = 18;
             // 
-            // label2
+            // lbl_Cottage_Description
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(233, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Kuvaus:";
+            this.lbl_Cottage_Description.AutoSize = true;
+            this.lbl_Cottage_Description.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Description.Location = new System.Drawing.Point(233, 68);
+            this.lbl_Cottage_Description.Name = "lbl_Cottage_Description";
+            this.lbl_Cottage_Description.Size = new System.Drawing.Size(65, 20);
+            this.lbl_Cottage_Description.TabIndex = 19;
+            this.lbl_Cottage_Description.Text = "Kuvaus:";
             // 
-            // textBox2
+            // txt_Cottage_Description
             // 
-            this.textBox2.Location = new System.Drawing.Point(473, 68);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(287, 97);
-            this.textBox2.TabIndex = 20;
+            this.txt_Cottage_Description.Location = new System.Drawing.Point(473, 68);
+            this.txt_Cottage_Description.Multiline = true;
+            this.txt_Cottage_Description.Name = "txt_Cottage_Description";
+            this.txt_Cottage_Description.Size = new System.Drawing.Size(287, 97);
+            this.txt_Cottage_Description.TabIndex = 20;
             // 
-            // label3
+            // lbl_Cottage_Price
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(233, 171);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Hinta:";
+            this.lbl_Cottage_Price.AutoSize = true;
+            this.lbl_Cottage_Price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Price.Location = new System.Drawing.Point(233, 171);
+            this.lbl_Cottage_Price.Name = "lbl_Cottage_Price";
+            this.lbl_Cottage_Price.Size = new System.Drawing.Size(51, 20);
+            this.lbl_Cottage_Price.TabIndex = 21;
+            this.lbl_Cottage_Price.Text = "Hinta:";
             // 
-            // textBox3
+            // txt_Cottage_Price
             // 
-            this.textBox3.Location = new System.Drawing.Point(473, 171);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(287, 20);
-            this.textBox3.TabIndex = 22;
+            this.txt_Cottage_Price.Location = new System.Drawing.Point(473, 171);
+            this.txt_Cottage_Price.Name = "txt_Cottage_Price";
+            this.txt_Cottage_Price.Size = new System.Drawing.Size(287, 20);
+            this.txt_Cottage_Price.TabIndex = 22;
             // 
-            // label4
+            // lbl_Cottage_Max_Visitors
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(233, 197);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 20);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Max henkilöt:";
+            this.lbl_Cottage_Max_Visitors.AutoSize = true;
+            this.lbl_Cottage_Max_Visitors.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Max_Visitors.Location = new System.Drawing.Point(233, 197);
+            this.lbl_Cottage_Max_Visitors.Name = "lbl_Cottage_Max_Visitors";
+            this.lbl_Cottage_Max_Visitors.Size = new System.Drawing.Size(101, 20);
+            this.lbl_Cottage_Max_Visitors.TabIndex = 23;
+            this.lbl_Cottage_Max_Visitors.Text = "Max henkilöt:";
             // 
-            // textBox4
+            // txt_Cottage_Max_Visitors
             // 
-            this.textBox4.Location = new System.Drawing.Point(473, 197);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(287, 20);
-            this.textBox4.TabIndex = 24;
+            this.txt_Cottage_Max_Visitors.Location = new System.Drawing.Point(473, 197);
+            this.txt_Cottage_Max_Visitors.Name = "txt_Cottage_Max_Visitors";
+            this.txt_Cottage_Max_Visitors.Size = new System.Drawing.Size(287, 20);
+            this.txt_Cottage_Max_Visitors.TabIndex = 24;
             // 
-            // label5
+            // lbl_Cottage_Size
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(233, 223);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 20);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "Koko:";
+            this.lbl_Cottage_Size.AutoSize = true;
+            this.lbl_Cottage_Size.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Size.Location = new System.Drawing.Point(233, 223);
+            this.lbl_Cottage_Size.Name = "lbl_Cottage_Size";
+            this.lbl_Cottage_Size.Size = new System.Drawing.Size(49, 20);
+            this.lbl_Cottage_Size.TabIndex = 25;
+            this.lbl_Cottage_Size.Text = "Koko:";
             // 
-            // label6
+            // lbl_Cottage_Wlan
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(233, 249);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 20);
-            this.label6.TabIndex = 27;
-            this.label6.Text = "Wlan:";
+            this.lbl_Cottage_Wlan.AutoSize = true;
+            this.lbl_Cottage_Wlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Wlan.Location = new System.Drawing.Point(233, 249);
+            this.lbl_Cottage_Wlan.Name = "lbl_Cottage_Wlan";
+            this.lbl_Cottage_Wlan.Size = new System.Drawing.Size(49, 20);
+            this.lbl_Cottage_Wlan.TabIndex = 27;
+            this.lbl_Cottage_Wlan.Text = "Wlan:";
             // 
-            // label7
+            // lbl_Cottage_Postal_Code_City
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(233, 299);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(206, 20);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "Postinumero ja -toimipaikka:";
+            this.lbl_Cottage_Postal_Code_City.AutoSize = true;
+            this.lbl_Cottage_Postal_Code_City.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Postal_Code_City.Location = new System.Drawing.Point(233, 299);
+            this.lbl_Cottage_Postal_Code_City.Name = "lbl_Cottage_Postal_Code_City";
+            this.lbl_Cottage_Postal_Code_City.Size = new System.Drawing.Size(206, 20);
+            this.lbl_Cottage_Postal_Code_City.TabIndex = 29;
+            this.lbl_Cottage_Postal_Code_City.Text = "Postinumero ja -toimipaikka:";
             // 
-            // textBox7
+            // txt_Cottage_Postal_Code
             // 
-            this.textBox7.Location = new System.Drawing.Point(473, 301);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 30;
+            this.txt_Cottage_Postal_Code.Location = new System.Drawing.Point(473, 301);
+            this.txt_Cottage_Postal_Code.Name = "txt_Cottage_Postal_Code";
+            this.txt_Cottage_Postal_Code.Size = new System.Drawing.Size(100, 20);
+            this.txt_Cottage_Postal_Code.TabIndex = 30;
             // 
-            // label8
+            // lbl_Cottage_Adress
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(233, 275);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 20);
-            this.label8.TabIndex = 31;
-            this.label8.Text = "Katuosoite:";
+            this.lbl_Cottage_Adress.AutoSize = true;
+            this.lbl_Cottage_Adress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cottage_Adress.Location = new System.Drawing.Point(233, 275);
+            this.lbl_Cottage_Adress.Name = "lbl_Cottage_Adress";
+            this.lbl_Cottage_Adress.Size = new System.Drawing.Size(89, 20);
+            this.lbl_Cottage_Adress.TabIndex = 31;
+            this.lbl_Cottage_Adress.Text = "Katuosoite:";
             // 
-            // textBox8
+            // txt_Cottage_Adress
             // 
-            this.textBox8.Location = new System.Drawing.Point(473, 275);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(287, 20);
-            this.textBox8.TabIndex = 32;
+            this.txt_Cottage_Adress.Location = new System.Drawing.Point(473, 275);
+            this.txt_Cottage_Adress.Name = "txt_Cottage_Adress";
+            this.txt_Cottage_Adress.Size = new System.Drawing.Size(287, 20);
+            this.txt_Cottage_Adress.TabIndex = 32;
             // 
-            // textBox9
+            // txt_Cottage_City
             // 
-            this.textBox9.Location = new System.Drawing.Point(579, 301);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(181, 20);
-            this.textBox9.TabIndex = 33;
+            this.txt_Cottage_City.Location = new System.Drawing.Point(579, 301);
+            this.txt_Cottage_City.Name = "txt_Cottage_City";
+            this.txt_Cottage_City.Size = new System.Drawing.Size(181, 20);
+            this.txt_Cottage_City.TabIndex = 33;
             // 
-            // button2
+            // btn_Cottage_Cancel
             // 
-            this.button2.Location = new System.Drawing.Point(604, 384);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 56;
-            this.button2.Text = "Peruuta";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_Cottage_Cancel.Location = new System.Drawing.Point(604, 384);
+            this.btn_Cottage_Cancel.Name = "btn_Cottage_Cancel";
+            this.btn_Cottage_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cottage_Cancel.TabIndex = 56;
+            this.btn_Cottage_Cancel.Text = "Peruuta";
+            this.btn_Cottage_Cancel.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_Cottage_Save
             // 
-            this.button1.Location = new System.Drawing.Point(685, 384);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "Tallenna";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Cottage_Save.Location = new System.Drawing.Point(685, 384);
+            this.btn_Cottage_Save.Name = "btn_Cottage_Save";
+            this.btn_Cottage_Save.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cottage_Save.TabIndex = 55;
+            this.btn_Cottage_Save.Text = "Tallenna";
+            this.btn_Cottage_Save.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rbu_Cottage_Wlan_Yes
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(473, 249);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(47, 17);
-            this.radioButton1.TabIndex = 57;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Kyllä";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbu_Cottage_Wlan_Yes.AutoSize = true;
+            this.rbu_Cottage_Wlan_Yes.Location = new System.Drawing.Point(473, 249);
+            this.rbu_Cottage_Wlan_Yes.Name = "rbu_Cottage_Wlan_Yes";
+            this.rbu_Cottage_Wlan_Yes.Size = new System.Drawing.Size(47, 17);
+            this.rbu_Cottage_Wlan_Yes.TabIndex = 57;
+            this.rbu_Cottage_Wlan_Yes.TabStop = true;
+            this.rbu_Cottage_Wlan_Yes.Text = "Kyllä";
+            this.rbu_Cottage_Wlan_Yes.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbu_Cottage_Wlan_No
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(579, 252);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(34, 17);
-            this.radioButton2.TabIndex = 58;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Ei";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbu_Cottage_Wlan_No.AutoSize = true;
+            this.rbu_Cottage_Wlan_No.Location = new System.Drawing.Point(579, 252);
+            this.rbu_Cottage_Wlan_No.Name = "rbu_Cottage_Wlan_No";
+            this.rbu_Cottage_Wlan_No.Size = new System.Drawing.Size(34, 17);
+            this.rbu_Cottage_Wlan_No.TabIndex = 58;
+            this.rbu_Cottage_Wlan_No.TabStop = true;
+            this.rbu_Cottage_Wlan_No.Text = "Ei";
+            this.rbu_Cottage_Wlan_No.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // txt_Cottage_Size
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(473, 222);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(287, 21);
-            this.comboBox1.TabIndex = 59;
+            this.txt_Cottage_Size.FormattingEnabled = true;
+            this.txt_Cottage_Size.Location = new System.Drawing.Point(473, 222);
+            this.txt_Cottage_Size.Name = "txt_Cottage_Size";
+            this.txt_Cottage_Size.Size = new System.Drawing.Size(287, 21);
+            this.txt_Cottage_Size.TabIndex = 59;
             // 
             // Cottage_popup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 681);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txt_Cottage_Size);
+            this.Controls.Add(this.rbu_Cottage_Wlan_No);
+            this.Controls.Add(this.rbu_Cottage_Wlan_Yes);
+            this.Controls.Add(this.btn_Cottage_Cancel);
+            this.Controls.Add(this.btn_Cottage_Save);
+            this.Controls.Add(this.txt_Cottage_City);
+            this.Controls.Add(this.txt_Cottage_Adress);
+            this.Controls.Add(this.lbl_Cottage_Adress);
+            this.Controls.Add(this.txt_Cottage_Postal_Code);
+            this.Controls.Add(this.lbl_Cottage_Postal_Code_City);
+            this.Controls.Add(this.lbl_Cottage_Wlan);
+            this.Controls.Add(this.lbl_Cottage_Size);
+            this.Controls.Add(this.txt_Cottage_Max_Visitors);
+            this.Controls.Add(this.lbl_Cottage_Max_Visitors);
+            this.Controls.Add(this.txt_Cottage_Price);
+            this.Controls.Add(this.lbl_Cottage_Price);
+            this.Controls.Add(this.txt_Cottage_Description);
+            this.Controls.Add(this.lbl_Cottage_Description);
+            this.Controls.Add(this.txt_Cottage_Name);
+            this.Controls.Add(this.lbl_Cottage_Name);
             this.Name = "Cottage_popup";
             this.Text = "Cottage_Popup";
             this.ResumeLayout(false);
@@ -262,25 +262,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lbl_Cottage_Name;
+        private System.Windows.Forms.TextBox txt_Cottage_Name;
+        private System.Windows.Forms.Label lbl_Cottage_Description;
+        private System.Windows.Forms.TextBox txt_Cottage_Description;
+        private System.Windows.Forms.Label lbl_Cottage_Price;
+        private System.Windows.Forms.TextBox txt_Cottage_Price;
+        private System.Windows.Forms.Label lbl_Cottage_Max_Visitors;
+        private System.Windows.Forms.TextBox txt_Cottage_Max_Visitors;
+        private System.Windows.Forms.Label lbl_Cottage_Size;
+        private System.Windows.Forms.Label lbl_Cottage_Wlan;
+        private System.Windows.Forms.Label lbl_Cottage_Postal_Code_City;
+        private System.Windows.Forms.TextBox txt_Cottage_Postal_Code;
+        private System.Windows.Forms.Label lbl_Cottage_Adress;
+        private System.Windows.Forms.TextBox txt_Cottage_Adress;
+        private System.Windows.Forms.TextBox txt_Cottage_City;
+        private System.Windows.Forms.Button btn_Cottage_Cancel;
+        private System.Windows.Forms.Button btn_Cottage_Save;
+        private System.Windows.Forms.RadioButton rbu_Cottage_Wlan_Yes;
+        private System.Windows.Forms.RadioButton rbu_Cottage_Wlan_No;
+        private System.Windows.Forms.ComboBox txt_Cottage_Size;
     }
 }

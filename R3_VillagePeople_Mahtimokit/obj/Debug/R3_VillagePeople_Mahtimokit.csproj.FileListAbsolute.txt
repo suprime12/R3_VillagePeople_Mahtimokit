@@ -9,3 +9,14 @@ C:\Users\miika\Desktop\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Ma
 C:\Users\miika\Desktop\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
 C:\Users\miika\Desktop\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.exe
 C:\Users\miika\Desktop\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.pdb
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.exe.config
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.exe
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.pdb
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.exe
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.pdb
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csprojResolveAssemblyReference.cache
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Properties.Resources.resources
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Cottage_popup.resources
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Office_popup.resources
+D:\AMK\Kurssit\Mökkiprojekti\Git\Ollin_koodi\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Main_window.resources

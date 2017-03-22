@@ -10,19 +10,13 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class Office_popup : Form
+    public partial class Main_window : Form
     {
-        public Office_popup()
+        public Main_window()
         {
             InitializeComponent();
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Office_popup_Load(object sender, EventArgs e)
+        private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
         {
 
         }
