@@ -1,6 +1,6 @@
 ﻿namespace R3_VillagePeople_Mahtimokit
 {
-    partial class cal_Order_Cottage_end
+    partial class Main_window
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cal_Order_Cottage_end));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_window));
             this.tab_Menu = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.grb_Order_Customers = new System.Windows.Forms.GroupBox();
@@ -73,7 +73,7 @@
             this.lbl_Order_Cottage_Selection = new System.Windows.Forms.Label();
             this.lbl_Order_Cottage_End = new System.Windows.Forms.Label();
             this.lbl_Order_Cottage_Begin = new System.Windows.Forms.Label();
-            this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
+            this.cal_Order_Cottage_End = new System.Windows.Forms.MonthCalendar();
             this.cal_Order_Cottage_Begin = new System.Windows.Forms.MonthCalendar();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.grb_Services = new System.Windows.Forms.GroupBox();
@@ -541,7 +541,7 @@
             this.grb_Order_Cottage.Controls.Add(this.lbl_Order_Cottage_Selection);
             this.grb_Order_Cottage.Controls.Add(this.lbl_Order_Cottage_End);
             this.grb_Order_Cottage.Controls.Add(this.lbl_Order_Cottage_Begin);
-            this.grb_Order_Cottage.Controls.Add(this.monthCalendar2);
+            this.grb_Order_Cottage.Controls.Add(this.cal_Order_Cottage_End);
             this.grb_Order_Cottage.Controls.Add(this.cal_Order_Cottage_Begin);
             this.grb_Order_Cottage.Location = new System.Drawing.Point(251, 10);
             this.grb_Order_Cottage.Name = "grb_Order_Cottage";
@@ -609,11 +609,12 @@
             this.lbl_Order_Cottage_Begin.TabIndex = 68;
             this.lbl_Order_Cottage_Begin.Text = "Tulopäivä";
             // 
-            // monthCalendar2
+            // cal_Order_Cottage_End
             // 
-            this.monthCalendar2.Location = new System.Drawing.Point(12, 308);
-            this.monthCalendar2.Name = "monthCalendar2";
-            this.monthCalendar2.TabIndex = 67;
+            this.cal_Order_Cottage_End.Location = new System.Drawing.Point(12, 308);
+            this.cal_Order_Cottage_End.Name = "cal_Order_Cottage_End";
+            this.cal_Order_Cottage_End.TabIndex = 67;
+            this.cal_Order_Cottage_End.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar2_DateChanged);
             // 
             // cal_Order_Cottage_Begin
             // 
@@ -994,14 +995,14 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Ohjeet";
             // 
-            // cal_Order_Cottage_end
+            // Main_window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 681);
             this.Controls.Add(this.tab_Menu);
-            this.Name = "cal_Order_Cottage_end";
+            this.Name = "Main_window";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MahtiMökit";
             this.tab_Menu.ResumeLayout(false);
@@ -1077,7 +1078,7 @@
         private System.Windows.Forms.Label lbl_Order_Cottage_Selection;
         private System.Windows.Forms.Label lbl_Order_Cottage_End;
         private System.Windows.Forms.Label lbl_Order_Cottage_Begin;
-        private System.Windows.Forms.MonthCalendar monthCalendar2;
+        private System.Windows.Forms.MonthCalendar cal_Order_Cottage_End;
         private System.Windows.Forms.MonthCalendar cal_Order_Cottage_Begin;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;

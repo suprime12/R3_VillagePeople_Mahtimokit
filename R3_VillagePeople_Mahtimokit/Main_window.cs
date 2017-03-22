@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace R3_VillagePeople_Mahtimokit
 {
-    public partial class cal_Order_Cottage_end : Form
+    public partial class Main_window : Form
     {
-        public cal_Order_Cottage_end()
+        public Main_window()
         {
             InitializeComponent();
+        }
+        private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
         }
     }
 }
