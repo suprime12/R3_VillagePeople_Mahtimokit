@@ -21,5 +21,10 @@ namespace R3_VillagePeople_Mahtimokit
         {
 
         }
+
+        private void Office_popup_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

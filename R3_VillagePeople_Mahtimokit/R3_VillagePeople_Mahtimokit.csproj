@@ -71,12 +71,6 @@
     <Compile Include="Cottage_Popup.Designer.cs">
       <DependentUpon>Cottage_popup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer_Edit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Customer_Edit.Designer.cs">
-      <DependentUpon>Customer_Edit.cs</DependentUpon>
-    </Compile>
     <Compile Include="Office_popup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     </Compile>
     <EmbeddedResource Include="Cottage_Popup.resx">
       <DependentUpon>Cottage_popup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Customer_Edit.resx">
-      <DependentUpon>Customer_Edit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Office_popup.resx">
       <DependentUpon>Office_popup.cs</DependentUpon>

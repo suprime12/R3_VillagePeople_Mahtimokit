@@ -16,7 +16,7 @@ namespace R3_VillagePeople_Mahtimokit
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new cal_Order_Cottage_end());
+            Application.Run(new Main_window());
         }
     }
 }
