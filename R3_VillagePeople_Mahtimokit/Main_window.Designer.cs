@@ -663,6 +663,7 @@
             this.btn_Services_delete.Size = new System.Drawing.Size(48, 48);
             this.btn_Services_delete.TabIndex = 109;
             this.btn_Services_delete.UseVisualStyleBackColor = true;
+            this.btn_Services_delete.Click += new System.EventHandler(this.btn_Services_delete_Click);
             // 
             // btn_Services_edit
             // 
@@ -674,6 +675,7 @@
             this.btn_Services_edit.Size = new System.Drawing.Size(48, 48);
             this.btn_Services_edit.TabIndex = 108;
             this.btn_Services_edit.UseVisualStyleBackColor = true;
+            this.btn_Services_edit.Click += new System.EventHandler(this.btn_Services_edit_Click);
             // 
             // btn_Services_add
             // 
@@ -685,6 +687,7 @@
             this.btn_Services_add.Size = new System.Drawing.Size(48, 48);
             this.btn_Services_add.TabIndex = 107;
             this.btn_Services_add.UseVisualStyleBackColor = true;
+            this.btn_Services_add.Click += new System.EventHandler(this.btn_Services_add_Click);
             // 
             // btn_Services_search
             // 
@@ -750,6 +753,7 @@
             this.btn_Cottages_delete.Size = new System.Drawing.Size(48, 48);
             this.btn_Cottages_delete.TabIndex = 109;
             this.btn_Cottages_delete.UseVisualStyleBackColor = true;
+            this.btn_Cottages_delete.Click += new System.EventHandler(this.btn_Cottages_delete_Click);
             // 
             // btn_Cottages_edit
             // 
@@ -761,6 +765,7 @@
             this.btn_Cottages_edit.Size = new System.Drawing.Size(48, 48);
             this.btn_Cottages_edit.TabIndex = 108;
             this.btn_Cottages_edit.UseVisualStyleBackColor = true;
+            this.btn_Cottages_edit.Click += new System.EventHandler(this.btn_Cottages_edit_Click);
             // 
             // btn_Cottages_add
             // 
@@ -772,6 +777,7 @@
             this.btn_Cottages_add.Size = new System.Drawing.Size(48, 48);
             this.btn_Cottages_add.TabIndex = 107;
             this.btn_Cottages_add.UseVisualStyleBackColor = true;
+            this.btn_Cottages_add.Click += new System.EventHandler(this.btn_Cottages_add_Click);
             // 
             // btn_Cottages_search
             // 
@@ -837,6 +843,7 @@
             this.btn_Customer_delete.Size = new System.Drawing.Size(48, 48);
             this.btn_Customer_delete.TabIndex = 109;
             this.btn_Customer_delete.UseVisualStyleBackColor = true;
+            this.btn_Customer_delete.Click += new System.EventHandler(this.btn_Customer_delete_Click);
             // 
             // btn_Customer_edit
             // 
@@ -848,6 +855,7 @@
             this.btn_Customer_edit.Size = new System.Drawing.Size(48, 48);
             this.btn_Customer_edit.TabIndex = 108;
             this.btn_Customer_edit.UseVisualStyleBackColor = true;
+            this.btn_Customer_edit.Click += new System.EventHandler(this.btn_Customer_edit_Click);
             // 
             // btn_Customer_add
             // 
@@ -859,6 +867,7 @@
             this.btn_Customer_add.Size = new System.Drawing.Size(48, 48);
             this.btn_Customer_add.TabIndex = 107;
             this.btn_Customer_add.UseVisualStyleBackColor = true;
+            this.btn_Customer_add.Click += new System.EventHandler(this.btn_Customer_add_Click);
             // 
             // btn_Customer_search
             // 
@@ -922,6 +931,7 @@
             this.btn_Office_delete.Size = new System.Drawing.Size(48, 48);
             this.btn_Office_delete.TabIndex = 112;
             this.btn_Office_delete.UseVisualStyleBackColor = true;
+            this.btn_Office_delete.Click += new System.EventHandler(this.btn_Office_delete_Click);
             // 
             // btn_Office_edit
             // 
@@ -933,6 +943,7 @@
             this.btn_Office_edit.Size = new System.Drawing.Size(48, 48);
             this.btn_Office_edit.TabIndex = 111;
             this.btn_Office_edit.UseVisualStyleBackColor = true;
+            this.btn_Office_edit.Click += new System.EventHandler(this.btn_Office_edit_Click);
             // 
             // btn_Office_add
             // 
@@ -944,6 +955,7 @@
             this.btn_Office_add.Size = new System.Drawing.Size(48, 48);
             this.btn_Office_add.TabIndex = 110;
             this.btn_Office_add.UseVisualStyleBackColor = true;
+            this.btn_Office_add.Click += new System.EventHandler(this.btn_Office_add_Click);
             // 
             // cbo_Office_select
             // 
@@ -1005,6 +1017,7 @@
             this.Name = "Main_window";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MahtiMökit";
+            this.Load += new System.EventHandler(this.Main_window_Load);
             this.tab_Menu.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.grb_Order_Customers.ResumeLayout(false);

@@ -195,7 +195,7 @@
             this.Controls.Add(this.txt_Office_Description);
             this.Controls.Add(this.txt_Office_Name);
             this.Name = "Office_popup";
-            this.Text = "Customer_popup";
+            this.Text = "Office_popup";
             this.Load += new System.EventHandler(this.Office_popup_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

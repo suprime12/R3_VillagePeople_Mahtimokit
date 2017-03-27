@@ -71,6 +71,12 @@
     <Compile Include="Cottage_Popup.Designer.cs">
       <DependentUpon>Cottage_popup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer_popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_popup.Designer.cs">
+      <DependentUpon>Customer_popup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Office_popup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,8 +91,17 @@
     <Compile Include="Main_window.Designer.cs">
       <DependentUpon>Main_window.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services_popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services_popup.Designer.cs">
+      <DependentUpon>Services_popup.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Cottage_Popup.resx">
       <DependentUpon>Cottage_popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_popup.resx">
+      <DependentUpon>Customer_popup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Office_popup.resx">
       <DependentUpon>Office_popup.cs</DependentUpon>
@@ -102,6 +117,9 @@
     </Compile>
     <EmbeddedResource Include="Main_window.resx">
       <DependentUpon>Main_window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services_popup.resx">
+      <DependentUpon>Services_popup.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
