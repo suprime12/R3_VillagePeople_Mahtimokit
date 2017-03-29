@@ -26,81 +26,81 @@ namespace R3_VillagePeople_Mahtimokit
 
         }
 
-        //Asiakkaan lisäys
+        // Asiakkaan lisäys
         private void btn_Customer_add_Click(object sender, EventArgs e)
         {
             var form = new Customer_popup();
             form.Show(this);
         }
 
-        //Asiakkaan muokkaus
+        // Asiakkaan muokkaus
         private void btn_Customer_edit_Click(object sender, EventArgs e)
         {
             var form = new Customer_popup();
             form.Show(this);
         }
 
-        //Asiakkaan poisto
+        // Asiakkaan poisto
         private void btn_Customer_delete_Click(object sender, EventArgs e)
         {
 
         }
 
-        //Toimipisteen lisäys
+        // Toimipisteen lisäys
         private void btn_Office_add_Click(object sender, EventArgs e)
         {
             var form = new Office_popup();
             form.Show(this);
         }
 
-        //Toimipisteen muokkaus
+        // Toimipisteen muokkaus
         private void btn_Office_edit_Click(object sender, EventArgs e)
         {
             var form = new Office_popup();
             form.Show(this);
         }
 
-        //Toimipisteen poisto
+        // Toimipisteen poisto
         private void btn_Office_delete_Click(object sender, EventArgs e)
         {
 
         }
 
-        //Palvelun lisäys
+        // Palvelun lisäys
         private void btn_Services_add_Click(object sender, EventArgs e)
         {
             var form = new Services_popup();
             form.Show(this);
         }
 
-        //Palvelun muokkaus
+        // Palvelun muokkaus
         private void btn_Services_edit_Click(object sender, EventArgs e)
         {
             var form = new Services_popup();
             form.Show(this);
         }
 
-        //Palvelun poisto
+        // Palvelun poisto
         private void btn_Services_delete_Click(object sender, EventArgs e)
         {
 
         }
 
-        //Mökin lisäys
+        // Mökin lisäys
         private void btn_Cottages_add_Click(object sender, EventArgs e)
         {
             var form = new Cottage_popup();
             form.Show(this);
         }
         
-        //Mökin muokkaus
+        // Mökin muokkaus
         private void btn_Cottages_edit_Click(object sender, EventArgs e)
         {
             var form = new Cottage_popup();
             form.Show(this);
         }
 
-        //Mökin poisto
+        // Mökin poisto
         private void btn_Cottages_delete_Click(object sender, EventArgs e)
         {
 

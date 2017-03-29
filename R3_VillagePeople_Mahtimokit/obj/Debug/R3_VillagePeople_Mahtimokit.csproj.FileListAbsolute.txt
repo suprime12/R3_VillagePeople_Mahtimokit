@@ -33,3 +33,16 @@ C:\Users\SpXxw\Documents\GitHub\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mah
 C:\Users\SpXxw\Documents\GitHub\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
 C:\Users\SpXxw\Documents\GitHub\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Customer_popup.resources
 C:\Users\SpXxw\Documents\GitHub\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Services_popup.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.exe.config
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.exe
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.pdb
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.exe
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\bin\Debug\R3_VillagePeople_Mahtimokit.pdb
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csprojResolveAssemblyReference.cache
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Cottage_popup.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Customer_popup.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Office_popup.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Properties.Resources.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Main_window.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.Services_popup.resources
+G:\GitHub\R3 SAMI\R3_VillagePeople_Mahtimokit\R3_VillagePeople_Mahtimokit\obj\Debug\R3_VillagePeople_Mahtimokit.csproj.GenerateResource.Cache
