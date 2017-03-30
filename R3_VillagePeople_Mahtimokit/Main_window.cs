@@ -106,6 +106,9 @@ namespace R3_VillagePeople_Mahtimokit
 
         }
 
-
+        private void Instruction_treeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            Instructions_richTextBox.Text = "test";
+        }
     }
 }
