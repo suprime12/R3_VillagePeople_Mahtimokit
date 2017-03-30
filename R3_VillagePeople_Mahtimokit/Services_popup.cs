@@ -16,5 +16,10 @@ namespace R3_VillagePeople_Mahtimokit
         {
             InitializeComponent();
         }
+
+        private void btn_Service_Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

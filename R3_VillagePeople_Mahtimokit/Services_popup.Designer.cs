@@ -53,6 +53,7 @@
             this.btn_Service_Cancel.TabIndex = 76;
             this.btn_Service_Cancel.Text = "Peruuta";
             this.btn_Service_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Service_Cancel.Click += new System.EventHandler(this.btn_Service_Cancel_Click);
             // 
             // btn_Service_Save
             // 
@@ -194,6 +195,7 @@
             this.Controls.Add(this.txt_Service_Name);
             this.Controls.Add(this.lbl_Service_Name);
             this.Name = "Services_popup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Services_popup";
             this.ResumeLayout(false);
             this.PerformLayout();

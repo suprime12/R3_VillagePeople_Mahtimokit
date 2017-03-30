@@ -67,6 +67,7 @@
             this.btn_Cottage_Cancel.TabIndex = 76;
             this.btn_Cottage_Cancel.Text = "Peruuta";
             this.btn_Cottage_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cottage_Cancel.Click += new System.EventHandler(this.btn_Cottage_Cancel_Click);
             // 
             // btn_Cottage_Save
             // 
@@ -257,6 +258,7 @@
             this.Controls.Add(this.txt_Cottage_Name);
             this.Controls.Add(this.lbl_Cottage_Name);
             this.Name = "Customer_popup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer_popup";
             this.ResumeLayout(false);
             this.PerformLayout();
