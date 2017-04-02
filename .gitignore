@@ -312,4 +312,20 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-# End of https://www.gitignore.io/api/windows,visualstudio
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
