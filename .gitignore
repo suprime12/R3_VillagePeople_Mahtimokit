@@ -1,2 +1,4 @@
-/R3_VillagePeople_Mahtimokit/bin/
-/R3_VillagePeople_Mahtimokit/obj/
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
