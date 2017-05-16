@@ -28,13 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.btn_Service_Save = new System.Windows.Forms.Button();
             this.btn_Service_Cancel = new System.Windows.Forms.Button();
             this.lbl_Service_Office = new System.Windows.Forms.Label();
             this.cbo_Service_Office_Select = new System.Windows.Forms.ComboBox();
-            this.toimipisteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vP_DatabaseDataSet1 = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet1();
             this.txt_Service_alv = new System.Windows.Forms.TextBox();
             this.lbl_Service_alv = new System.Windows.Forms.Label();
             this.txt_Service_Max_Visitors = new System.Windows.Forms.TextBox();
@@ -45,12 +42,8 @@
             this.lbl_Service_Description = new System.Windows.Forms.Label();
             this.txt_Service_Name = new System.Windows.Forms.TextBox();
             this.lbl_Service_Name = new System.Windows.Forms.Label();
-            this.toimipisteTableAdapter = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet1TableAdapters.ToimipisteTableAdapter();
-            this.majoitusTableAdapter = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet3TableAdapters.MajoitusTableAdapter();
             this.lbl_Service_Details = new System.Windows.Forms.Label();
             this.lbl_Euros = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.toimipisteBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Service_Save
@@ -75,7 +68,7 @@
             this.btn_Service_Cancel.TabIndex = 99;
             this.btn_Service_Cancel.Text = "Peruuta";
             this.btn_Service_Cancel.UseVisualStyleBackColor = true;
-            this.btn_Service_Cancel.Click += new System.EventHandler(this.btn_Service_Cancel_Click_1);
+            this.btn_Service_Cancel.Click += new System.EventHandler(this.btn_Service_Cancel_Click);
             // 
             // lbl_Service_Office
             // 
@@ -90,24 +83,14 @@
             // cbo_Service_Office_Select
             // 
             this.cbo_Service_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_Service_Office_Select.DataSource = this.toimipisteBindingSource;
             this.cbo_Service_Office_Select.DisplayMember = "nimi";
+            this.cbo_Service_Office_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_Service_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_Service_Office_Select.FormattingEnabled = true;
             this.cbo_Service_Office_Select.Location = new System.Drawing.Point(199, 105);
             this.cbo_Service_Office_Select.Name = "cbo_Service_Office_Select";
             this.cbo_Service_Office_Select.Size = new System.Drawing.Size(272, 28);
             this.cbo_Service_Office_Select.TabIndex = 93;
-            // 
-            // toimipisteBindingSource
-            // 
-            this.toimipisteBindingSource.DataMember = "Toimipiste";
-            this.toimipisteBindingSource.DataSource = this.vP_DatabaseDataSet1;
-            // 
-            // vP_DatabaseDataSet1
-            // 
-            this.vP_DatabaseDataSet1.DataSetName = "VP_DatabaseDataSet1";
-            this.vP_DatabaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // txt_Service_alv
             // 
@@ -116,7 +99,7 @@
             this.txt_Service_alv.Location = new System.Drawing.Point(199, 295);
             this.txt_Service_alv.Name = "txt_Service_alv";
             this.txt_Service_alv.Size = new System.Drawing.Size(100, 26);
-            this.txt_Service_alv.TabIndex = 98;
+            this.txt_Service_alv.TabIndex = 97;
             // 
             // lbl_Service_alv
             // 
@@ -135,7 +118,7 @@
             this.txt_Service_Max_Visitors.Location = new System.Drawing.Point(199, 249);
             this.txt_Service_Max_Visitors.Name = "txt_Service_Max_Visitors";
             this.txt_Service_Max_Visitors.Size = new System.Drawing.Size(100, 26);
-            this.txt_Service_Max_Visitors.TabIndex = 97;
+            this.txt_Service_Max_Visitors.TabIndex = 96;
             // 
             // lbl_Service_Max_Visitors
             // 
@@ -154,7 +137,7 @@
             this.txt_Service_Price.Location = new System.Drawing.Point(199, 202);
             this.txt_Service_Price.Name = "txt_Service_Price";
             this.txt_Service_Price.Size = new System.Drawing.Size(100, 26);
-            this.txt_Service_Price.TabIndex = 96;
+            this.txt_Service_Price.TabIndex = 95;
             // 
             // lbl_Service_Price
             // 
@@ -174,7 +157,7 @@
             this.txt_Service_Description.Multiline = true;
             this.txt_Service_Description.Name = "txt_Service_Description";
             this.txt_Service_Description.Size = new System.Drawing.Size(272, 87);
-            this.txt_Service_Description.TabIndex = 95;
+            this.txt_Service_Description.TabIndex = 98;
             // 
             // lbl_Service_Description
             // 
@@ -204,14 +187,6 @@
             this.lbl_Service_Name.Size = new System.Drawing.Size(48, 20);
             this.lbl_Service_Name.TabIndex = 92;
             this.lbl_Service_Name.Text = "Nimi:";
-            // 
-            // toimipisteTableAdapter
-            // 
-            this.toimipisteTableAdapter.ClearBeforeFill = true;
-            // 
-            // majoitusTableAdapter
-            // 
-            this.majoitusTableAdapter.ClearBeforeFill = true;
             // 
             // lbl_Service_Details
             // 
@@ -259,8 +234,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Palvelun tiedot";
             this.Load += new System.EventHandler(this.Services_popup_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.toimipisteBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,10 +254,6 @@
         public System.Windows.Forms.TextBox txt_Service_Price;
         public System.Windows.Forms.TextBox txt_Service_Description;
         public System.Windows.Forms.TextBox txt_Service_Name;
-        private VP_DatabaseDataSet1 vP_DatabaseDataSet1;
-        private System.Windows.Forms.BindingSource toimipisteBindingSource;
-        private VP_DatabaseDataSet1TableAdapters.ToimipisteTableAdapter toimipisteTableAdapter;
-        private VP_DatabaseDataSet3TableAdapters.MajoitusTableAdapter majoitusTableAdapter;
         private System.Windows.Forms.Label lbl_Service_Details;
         private System.Windows.Forms.Label lbl_Euros;
     }

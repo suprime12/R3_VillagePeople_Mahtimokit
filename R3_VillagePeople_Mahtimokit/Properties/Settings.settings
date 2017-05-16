@@ -5,11 +5,8 @@
     <Setting Name="default_office" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="default_history_start_date" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)">2017-01-01</Value>
-    </Setting>
     <Setting Name="default_history_end_date" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)">2017-04-08</Value>
+      <Value Profile="(Default)">2017-05-15</Value>
     </Setting>
     <Setting Name="default_is_history_end_date_today" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
@@ -21,6 +18,9 @@
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\VP_Database.mdf;Integrated Security=True;Connect Timeout=30</Value>
+    </Setting>
+    <Setting Name="user_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Käyttäjä</Value>
     </Setting>
   </Settings>
 </SettingsFile>

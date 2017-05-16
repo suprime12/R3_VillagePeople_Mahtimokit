@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.toimipisteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vP_DatabaseDataSet1 = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet1();
-            this.vP_DatabaseDataSet3 = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet3();
-            this.majoitusBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.toimipisteTableAdapter = new R3_VillagePeople_Mahtimokit.VP_DatabaseDataSet1TableAdapters.ToimipisteTableAdapter();
             this.txt_Cottage_Size = new System.Windows.Forms.TextBox();
             this.lbl_Cottage_Office = new System.Windows.Forms.Label();
             this.cbo_Cottage_Office_Select = new System.Windows.Forms.ComboBox();
@@ -54,35 +48,7 @@
             this.lbl_Cottage_Details = new System.Windows.Forms.Label();
             this.lbl_Euros = new System.Windows.Forms.Label();
             this.lbl_Square_Meters = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.toimipisteBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.majoitusBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // toimipisteBindingSource
-            // 
-            this.toimipisteBindingSource.DataMember = "Toimipiste";
-            this.toimipisteBindingSource.DataSource = this.vP_DatabaseDataSet1;
-            // 
-            // vP_DatabaseDataSet1
-            // 
-            this.vP_DatabaseDataSet1.DataSetName = "VP_DatabaseDataSet1";
-            this.vP_DatabaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // vP_DatabaseDataSet3
-            // 
-            this.vP_DatabaseDataSet3.DataSetName = "VP_DatabaseDataSet3";
-            this.vP_DatabaseDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // majoitusBindingSource
-            // 
-            this.majoitusBindingSource.DataMember = "Majoitus";
-            this.majoitusBindingSource.DataSource = this.vP_DatabaseDataSet3;
-            // 
-            // toimipisteTableAdapter
-            // 
-            this.toimipisteTableAdapter.ClearBeforeFill = true;
             // 
             // txt_Cottage_Size
             // 
@@ -106,8 +72,8 @@
             // cbo_Cottage_Office_Select
             // 
             this.cbo_Cottage_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_Cottage_Office_Select.DataSource = this.toimipisteBindingSource;
             this.cbo_Cottage_Office_Select.DisplayMember = "nimi";
+            this.cbo_Cottage_Office_Select.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_Cottage_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_Cottage_Office_Select.FormattingEnabled = true;
             this.cbo_Cottage_Office_Select.Location = new System.Drawing.Point(182, 102);
@@ -248,7 +214,7 @@
             this.btn_Cottage_Save.TabIndex = 126;
             this.btn_Cottage_Save.Text = "Tallenna";
             this.btn_Cottage_Save.UseVisualStyleBackColor = true;
-            this.btn_Cottage_Save.Click += new System.EventHandler(this.btn_Cottage_Save_Click_1);
+            this.btn_Cottage_Save.Click += new System.EventHandler(this.btn_Cottage_Save_Click);
             // 
             // btn_Cottage_Cancel
             // 
@@ -260,6 +226,7 @@
             this.btn_Cottage_Cancel.TabIndex = 125;
             this.btn_Cottage_Cancel.Text = "Peruuta";
             this.btn_Cottage_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cottage_Cancel.Click += new System.EventHandler(this.btn_Cottage_Cancel_Click);
             // 
             // lbl_Cottage_Details
             // 
@@ -321,21 +288,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mökin tiedot";
             this.Load += new System.EventHandler(this.frm_Cottage_Popup_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.toimipisteBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vP_DatabaseDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.majoitusBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.BindingSource majoitusBindingSource;
-        private VP_DatabaseDataSet3 vP_DatabaseDataSet3;
-        private VP_DatabaseDataSet1 vP_DatabaseDataSet1;
-        private System.Windows.Forms.BindingSource toimipisteBindingSource;
-        private VP_DatabaseDataSet1TableAdapters.ToimipisteTableAdapter toimipisteTableAdapter;
         public System.Windows.Forms.TextBox txt_Cottage_Size;
         private System.Windows.Forms.Label lbl_Cottage_Office;
         public System.Windows.Forms.ComboBox cbo_Cottage_Office_Select;

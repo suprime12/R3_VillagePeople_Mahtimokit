@@ -65,12 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Are_you_sure_popup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Are_you_sure_popup.designer.cs">
-      <DependentUpon>Are_you_sure_popup.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Combo_box_item.cs" />
     <Compile Include="Cottage_popup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,40 +98,6 @@
     <Compile Include="Services_popup.Designer.cs">
       <DependentUpon>Services_popup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Text_error_popup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Text_error_popup.designer.cs">
-      <DependentUpon>Text_error_popup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VP_DatabaseDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VP_DatabaseDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="VP_DatabaseDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VP_DatabaseDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="VP_DatabaseDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VP_DatabaseDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="VP_DatabaseDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VP_DatabaseDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="VP_DatabaseDataSet4.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VP_DatabaseDataSet4.xsd</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Are_you_sure_popup.resx">
-      <DependentUpon>Are_you_sure_popup.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Cottage_Popup.resx">
       <DependentUpon>Cottage_popup.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,9 +123,6 @@
     <EmbeddedResource Include="Services_popup.resx">
       <DependentUpon>Services_popup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Text_error_popup.resx">
-      <DependentUpon>Text_error_popup.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -174,61 +132,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="VP_DatabaseDataSet.xsc">
-      <DependentUpon>VP_DatabaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>VP_DatabaseDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="VP_DatabaseDataSet.xss">
-      <DependentUpon>VP_DatabaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet1.xsc">
-      <DependentUpon>VP_DatabaseDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>VP_DatabaseDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="VP_DatabaseDataSet1.xss">
-      <DependentUpon>VP_DatabaseDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet2.xsc">
-      <DependentUpon>VP_DatabaseDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>VP_DatabaseDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="VP_DatabaseDataSet2.xss">
-      <DependentUpon>VP_DatabaseDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet3.xsc">
-      <DependentUpon>VP_DatabaseDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>VP_DatabaseDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="VP_DatabaseDataSet3.xss">
-      <DependentUpon>VP_DatabaseDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet4.xsc">
-      <DependentUpon>VP_DatabaseDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="VP_DatabaseDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>VP_DatabaseDataSet4.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="VP_DatabaseDataSet4.xss">
-      <DependentUpon>VP_DatabaseDataSet4.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
