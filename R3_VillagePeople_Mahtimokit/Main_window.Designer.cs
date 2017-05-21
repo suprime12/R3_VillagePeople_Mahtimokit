@@ -536,7 +536,7 @@
             // 
             // btn_Order_Customers_Search
             // 
-            this.btn_Order_Customers_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Order_Customers_Search.BackgroundImage")));
+            this.btn_Order_Customers_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Order_Customers_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Order_Customers_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Order_Customers_Search.Location = new System.Drawing.Point(158, 3);
@@ -707,7 +707,7 @@
             // 
             // btn_Order_Cottages_Search
             // 
-            this.btn_Order_Cottages_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Order_Cottages_Search.BackgroundImage")));
+            this.btn_Order_Cottages_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Order_Cottages_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Order_Cottages_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Order_Cottages_Search.Location = new System.Drawing.Point(194, 3);
@@ -962,7 +962,7 @@
             // 
             // btn_Order_Services_Search
             // 
-            this.btn_Order_Services_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Order_Services_Search.BackgroundImage")));
+            this.btn_Order_Services_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Order_Services_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Order_Services_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Order_Services_Search.Location = new System.Drawing.Point(179, 3);
@@ -1213,7 +1213,7 @@
             // btn_Order_Summary_Next_Page
             // 
             this.btn_Order_Summary_Next_Page.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Order_Summary_Next_Page.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Order_Summary_Next_Page.BackgroundImage")));
+            this.btn_Order_Summary_Next_Page.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.next;
             this.btn_Order_Summary_Next_Page.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Order_Summary_Next_Page.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Order_Summary_Next_Page.Location = new System.Drawing.Point(159, 3);
@@ -1225,7 +1225,7 @@
             // 
             // btn_Order_Summary_Delete_From_List
             // 
-            this.btn_Order_Summary_Delete_From_List.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Order_Summary_Delete_From_List.BackgroundImage")));
+            this.btn_Order_Summary_Delete_From_List.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.remove_close;
             this.btn_Order_Summary_Delete_From_List.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Order_Summary_Delete_From_List.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Order_Summary_Delete_From_List.Location = new System.Drawing.Point(3, 3);
@@ -1337,7 +1337,7 @@
             // btn_Customer_Search
             // 
             this.btn_Customer_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Customer_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_Search.BackgroundImage")));
+            this.btn_Customer_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Customer_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Customer_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Customer_Search.Location = new System.Drawing.Point(250, 3);
@@ -1380,7 +1380,7 @@
             // btn_Customer_Delete
             // 
             this.btn_Customer_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Customer_Delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_Delete.BackgroundImage")));
+            this.btn_Customer_Delete.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.trash;
             this.btn_Customer_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Customer_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Customer_Delete.Location = new System.Drawing.Point(234, 7);
@@ -1393,7 +1393,7 @@
             // btn_Customer_Edit
             // 
             this.btn_Customer_Edit.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btn_Customer_Edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_Edit.BackgroundImage")));
+            this.btn_Customer_Edit.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.edit;
             this.btn_Customer_Edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Customer_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Customer_Edit.Location = new System.Drawing.Point(118, 7);
@@ -1406,7 +1406,7 @@
             // btn_Customer_Add
             // 
             this.btn_Customer_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_Customer_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Customer_Add.BackgroundImage")));
+            this.btn_Customer_Add.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.add;
             this.btn_Customer_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Customer_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Customer_Add.Location = new System.Drawing.Point(3, 7);
@@ -1525,7 +1525,7 @@
             // btn_Office_Delete
             // 
             this.btn_Office_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Office_Delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_Delete.BackgroundImage")));
+            this.btn_Office_Delete.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.trash;
             this.btn_Office_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Office_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Office_Delete.Location = new System.Drawing.Point(228, 3);
@@ -1538,7 +1538,7 @@
             // btn_Office_Edit
             // 
             this.btn_Office_Edit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_Office_Edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_Edit.BackgroundImage")));
+            this.btn_Office_Edit.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.edit;
             this.btn_Office_Edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Office_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Office_Edit.Location = new System.Drawing.Point(114, 3);
@@ -1550,7 +1550,7 @@
             // 
             // btn_Office_Add
             // 
-            this.btn_Office_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Office_Add.BackgroundImage")));
+            this.btn_Office_Add.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.add;
             this.btn_Office_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Office_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Office_Add.Location = new System.Drawing.Point(3, 3);
@@ -1605,7 +1605,7 @@
             // btn_Cottages_Search
             // 
             this.btn_Cottages_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Cottages_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_Search.BackgroundImage")));
+            this.btn_Cottages_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Cottages_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Cottages_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Cottages_Search.Location = new System.Drawing.Point(244, 3);
@@ -1648,7 +1648,7 @@
             // btn_Cottages_Delete
             // 
             this.btn_Cottages_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Cottages_Delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_Delete.BackgroundImage")));
+            this.btn_Cottages_Delete.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.trash;
             this.btn_Cottages_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Cottages_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Cottages_Delete.Location = new System.Drawing.Point(228, 7);
@@ -1661,7 +1661,7 @@
             // btn_Cottages_Edit
             // 
             this.btn_Cottages_Edit.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btn_Cottages_Edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_Edit.BackgroundImage")));
+            this.btn_Cottages_Edit.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.edit;
             this.btn_Cottages_Edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Cottages_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Cottages_Edit.Location = new System.Drawing.Point(115, 7);
@@ -1674,7 +1674,7 @@
             // btn_Cottages_Add
             // 
             this.btn_Cottages_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_Cottages_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Cottages_Add.BackgroundImage")));
+            this.btn_Cottages_Add.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.add;
             this.btn_Cottages_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Cottages_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Cottages_Add.Location = new System.Drawing.Point(3, 7);
@@ -1777,7 +1777,7 @@
             // btn_Services_Add
             // 
             this.btn_Services_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_Services_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_Add.BackgroundImage")));
+            this.btn_Services_Add.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.add;
             this.btn_Services_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Services_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Services_Add.Location = new System.Drawing.Point(3, 11);
@@ -1790,7 +1790,7 @@
             // btn_Services_Edit
             // 
             this.btn_Services_Edit.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btn_Services_Edit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_Edit.BackgroundImage")));
+            this.btn_Services_Edit.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.edit;
             this.btn_Services_Edit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Services_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Services_Edit.Location = new System.Drawing.Point(118, 11);
@@ -1803,7 +1803,7 @@
             // btn_Services_Delete
             // 
             this.btn_Services_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Services_Delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_Delete.BackgroundImage")));
+            this.btn_Services_Delete.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.trash;
             this.btn_Services_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Services_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Services_Delete.Location = new System.Drawing.Point(234, 11);
@@ -1833,7 +1833,7 @@
             // btn_Services_Search
             // 
             this.btn_Services_Search.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btn_Services_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Services_Search.BackgroundImage")));
+            this.btn_Services_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_Services_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Services_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Services_Search.Location = new System.Drawing.Point(250, 3);
@@ -1971,7 +1971,7 @@
             // btn_History_Customer_Search
             // 
             this.btn_History_Customer_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_History_Customer_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_History_Customer_Search.BackgroundImage")));
+            this.btn_History_Customer_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_History_Customer_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_History_Customer_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_History_Customer_Search.Location = new System.Drawing.Point(241, 3);
@@ -2219,7 +2219,7 @@
             // btn_History_Order_Search
             // 
             this.btn_History_Order_Search.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btn_History_Order_Search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_History_Order_Search.BackgroundImage")));
+            this.btn_History_Order_Search.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.search;
             this.btn_History_Order_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_History_Order_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_History_Order_Search.Location = new System.Drawing.Point(263, 3);
@@ -2409,7 +2409,7 @@
             // btn_History_Order_History_Del
             // 
             this.btn_History_Order_History_Del.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_History_Order_History_Del.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_History_Order_History_Del.BackgroundImage")));
+            this.btn_History_Order_History_Del.BackgroundImage = global::R3_VillagePeople_Mahtimokit.Properties.Resources.trash;
             this.btn_History_Order_History_Del.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_History_Order_History_Del.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_History_Order_History_Del.Location = new System.Drawing.Point(235, 3);
